@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KurbanChain</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">
+            <span class="logo" aria-hidden="true">&#9670;</span>
+            <span>KurbanChain</span>
+            <span id="mode" class="mode"></span>
+        </div>
+        <label class="program-pilih">
+            <span>Program</span>
+            <select id="program"></select>
+        </label>
+    </header>
+    <nav class="nav" id="nav">
+        <a href="#/" data-r="">Beranda</a>
+        <a href="#/lembaga" data-r="lembaga">Lembaga</a>
+        <a href="#/peternak" data-r="peternak">Peternak</a>
+        <a href="#/pemeriksa" data-r="pemeriksa">Dokter hewan</a>
+        <a href="#/rph" data-r="rph">RPH</a>
+        <a href="#/pengawas" data-r="pengawas">Pengawas syariah</a>
+        <a href="#/panitia" data-r="panitia">Panitia</a>
+        <a href="#/lacak" data-r="lacak" class="publik">Lacak kurban</a>
+        <a href="#/verifikasi" data-r="verifikasi" class="publik">Verifikasi paket</a>
+    </nav>
+    <div id="peringatan" class="peringatan" hidden></div>
+    <main id="isi" class="isi"></main>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="app.js"></script>
+</body>
+</html>

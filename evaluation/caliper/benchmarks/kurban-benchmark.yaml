@@ -1,0 +1,83 @@
+# Benchmark KurbanChain (Hyperledger Caliper 0.6).
+# Laju (tps) adalah total untuk semua worker. Persiapan data di
+# initializeWorkloadContext tidak ikut diukur.
+test:
+  name: kurbanchain
+  description: Kinerja chaincode kurban pada test-network Fabric 2.5 (2 org, Raft, policy AND)
+  workers:
+    number: 4
+  rounds:
+    - label: akad-50tps
+      description: Pencatatan akad pada laju normal
+      txNumber: 3000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 50
+      workload:
+        module: workload/catatAkad.js
+
+    - label: akad-100tps
+      txNumber: 3000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload/catatAkad.js
+
+    - label: akad-200tps
+      description: Mencari titik jenuh throughput tulis
+      txNumber: 3000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 200
+      workload:
+        module: workload/catatAkad.js
+
+    - label: penerimaan-100tps
+      description: Hari distribusi, penerimaan paralel dari hewan yang sama
+      txNumber: 2000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload/penerimaan.js
+        arguments:
+          paketPerWorker: 550
+
+    - label: penerimaan-lonjakan
+      description: Lonjakan antrean penerimaan, laju naik 20 ke 300 tps
+      txNumber: 4000
+      rateControl:
+        type: linear-rate
+        opts:
+          startingTps: 20
+          finishingTps: 300
+      workload:
+        module: workload/penerimaan.js
+        arguments:
+          paketPerWorker: 1050
+
+    - label: lacak-baca-300tps
+      description: Pelacakan pekurban dan verifikasi QR (kueri)
+      txDuration: 60
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 300
+      workload:
+        module: workload/lacak.js
+
+monitors:
+  resource:
+    - module: docker
+      options:
+        interval: 5
+        cpuUsageNormalization: true
+        containers:
+          - peer0.org1.example.com
+          - peer0.org2.example.com
+          - orderer.example.com

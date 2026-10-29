@@ -1,0 +1,15 @@
+{
+  "title": "KurbanChain: Hyperledger Fabric traceability system for qurban (source code and benchmark data)",
+  "upload_type": "software",
+  "description": "<p>KurbanChain is a permissioned-blockchain prototype on Hyperledger Fabric 2.5 that records the qurban (Eid al-Adha animal sacrifice) chain from the donor's wakalah contract and payment to the receipt of each meat parcel. This release contains the chaincode, the web application, scripts for a native (Docker-free) Fabric network, Hyperledger Caliper workloads, the raw results of every benchmark reported in the accompanying article, and scripts that summarize the results and recreate the article's performance figures. Source code: MIT License. Benchmark data and analysis outputs: CC BY 4.0.</p>",
+  "creators": [
+    {"name": "Hikmatyar, Missi", "affiliation": "Universitas Perjuangan Tasikmalaya"},
+    {"name": "Sudiarjo, Aso", "affiliation": "Universitas Perjuangan Tasikmalaya"},
+    {"name": "Ardigurnita, Firgian", "affiliation": "Universitas Perjuangan Tasikmalaya"}
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": ["blockchain", "Hyperledger Fabric", "qurban", "traceability", "design science research", "performance evaluation", "Hyperledger Caliper"],
+  "notes": "Funded by the Ministry of Higher Education, Science, and Technology of the Republic of Indonesia (Kemendiktisaintek) through the 2025 Fundamental Research grant scheme.",
+  "language": "eng"
+}

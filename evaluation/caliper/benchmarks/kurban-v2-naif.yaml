@@ -1,0 +1,29 @@
+# Ablasi: jalankan dengan KURBAN_ABLASI_PENERIMAAN_NAIF=1 agar catatPenerimaan juga menaikkan penghitung di dokumen hewan.
+# Dibuat untuk revisi naskah: ronde 60 s, satu ronde pemanasan (label "pemanasan",
+# tidak dilaporkan). Laju = total semua worker.
+test:
+  name: kurbanchain-v2-naif
+  description: "Baseline MVCC: catatPenerimaan yang juga menulis dokumen hewan (ronde 60 s)"
+  workers:
+    number: 2
+  rounds:
+    - label: pemanasan
+      description: Pencatatan akad, laju tetap 50 tps selama 20 detik
+      txDuration: 20
+      rateControl: {type: fixed-rate, opts: {tps: 50}}
+      workload: {module: workload/catatAkad.js}
+    - label: penerimaan-25tps
+      description: Penerimaan paket paralel dari hewan yang sama, laju tetap 25 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 25}}
+      workload: {module: workload/penerimaan.js, arguments: {paketPerWorker: 1025}}
+    - label: penerimaan-50tps
+      description: Penerimaan paket paralel dari hewan yang sama, laju tetap 50 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 50}}
+      workload: {module: workload/penerimaan.js, arguments: {paketPerWorker: 2000}}
+    - label: penerimaan-100tps
+      description: Penerimaan paket paralel dari hewan yang sama, laju tetap 100 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 100}}
+      workload: {module: workload/penerimaan.js, arguments: {paketPerWorker: 3950}}

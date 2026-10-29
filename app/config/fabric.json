@@ -1,0 +1,25 @@
+{
+  "channel": "kurbanchannel",
+  "chaincode": "kurban",
+  "orgs": {
+    "Org1MSP": {
+      "peerEndpoint": "localhost:7051",
+      "peerHostAlias": "peer0.org1.example.com",
+      "tlsCertPath": "${TEST_NETWORK_DIR}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt"
+    },
+    "Org2MSP": {
+      "peerEndpoint": "localhost:9051",
+      "peerHostAlias": "peer0.org2.example.com",
+      "tlsCertPath": "${TEST_NETWORK_DIR}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt"
+    }
+  },
+  "identities": {
+    "lembaga":   { "mspId": "Org1MSP", "mspDir": "${TEST_NETWORK_DIR}/organizations/peerOrganizations/org1.example.com/users/lembaga1@org1.example.com/msp" },
+    "panitia":   { "mspId": "Org1MSP", "mspDir": "${TEST_NETWORK_DIR}/organizations/peerOrganizations/org1.example.com/users/panitia1@org1.example.com/msp" },
+    "pengawas":  { "mspId": "Org1MSP", "mspDir": "${TEST_NETWORK_DIR}/organizations/peerOrganizations/org1.example.com/users/pengawas1@org1.example.com/msp" },
+    "peternak":  { "mspId": "Org2MSP", "mspDir": "${TEST_NETWORK_DIR}/organizations/peerOrganizations/org2.example.com/users/peternak1@org2.example.com/msp" },
+    "pemeriksa": { "mspId": "Org2MSP", "mspDir": "${TEST_NETWORK_DIR}/organizations/peerOrganizations/org2.example.com/users/pemeriksa1@org2.example.com/msp" },
+    "rph":       { "mspId": "Org2MSP", "mspDir": "${TEST_NETWORK_DIR}/organizations/peerOrganizations/org2.example.com/users/rph1@org2.example.com/msp" },
+    "publik":    { "mspId": "Org1MSP", "mspDir": "${TEST_NETWORK_DIR}/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp" }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "kurbanchain-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Aplikasi web KurbanChain: dasbor peran, pelacakan pekurban, verifikasi QR paket",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "postinstall": "npm --prefix ../chaincode install --no-audit --no-fund",
+    "start": "node server.js",
+    "start:fabric": "node server.js --fabric",
+    "test": "node --test",
+    "uji-asap": "node scripts/uji-asap.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.6",
+    "@hyperledger/fabric-gateway": "^1.13.0",
+    "express": "^5.3.0",
+    "qrcode": "^1.5.4"
+  }
+}

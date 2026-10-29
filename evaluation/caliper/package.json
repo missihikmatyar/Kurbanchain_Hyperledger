@@ -1,0 +1,18 @@
+{
+  "name": "kurbanchain-caliper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Benchmark Hyperledger Caliper untuk chaincode KurbanChain",
+  "license": "MIT",
+  "scripts": {
+    "bind": "caliper bind --caliper-bind-sut fabric:2.5",
+    "benchmark": "caliper launch manager --caliper-workspace ./ --caliper-networkconfig networks/kurban-network.local.yaml --caliper-benchconfig benchmarks/kurban-benchmark.yaml --caliper-flow-only-test"
+  },
+  "devDependencies": {
+    "@hyperledger/caliper-cli": "0.6.0"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.3",
+    "@hyperledger/fabric-gateway": "^1.5.0"
+  }
+}

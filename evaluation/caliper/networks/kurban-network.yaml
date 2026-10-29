@@ -1,0 +1,61 @@
+# Konfigurasi jaringan Caliper 0.6 untuk test-network KurbanChain.
+# Path relatif terhadap folder evaluation/caliper dan mengasumsikan
+# fabric-samples berada di $HOME/fabric. Bila berbeda, jalankan
+#   ../siapkan-caliper.sh
+# yang menulis ulang path di berkas ini sesuai FABRIC_DIR Anda.
+name: kurbanchain
+version: "2.0.0"
+
+caliper:
+  blockchain: fabric
+  sutOptions:
+    mutualTls: false
+
+channels:
+  - channelName: kurbanchannel
+    contracts:
+      - id: kurban
+
+organizations:
+  - mspid: Org1MSP
+    identities:
+      certificates:
+        - name: lembaga1
+          clientPrivateKey:
+            path: __TN__/organizations/peerOrganizations/org1.example.com/users/lembaga1@org1.example.com/msp/keystore/priv_sk
+          clientSignedCert:
+            path: __TN__/organizations/peerOrganizations/org1.example.com/users/lembaga1@org1.example.com/msp/signcerts/cert.pem
+        - name: panitia1
+          clientPrivateKey:
+            path: __TN__/organizations/peerOrganizations/org1.example.com/users/panitia1@org1.example.com/msp/keystore/priv_sk
+          clientSignedCert:
+            path: __TN__/organizations/peerOrganizations/org1.example.com/users/panitia1@org1.example.com/msp/signcerts/cert.pem
+        - name: pengawas1
+          clientPrivateKey:
+            path: __TN__/organizations/peerOrganizations/org1.example.com/users/pengawas1@org1.example.com/msp/keystore/priv_sk
+          clientSignedCert:
+            path: __TN__/organizations/peerOrganizations/org1.example.com/users/pengawas1@org1.example.com/msp/signcerts/cert.pem
+    connectionProfile:
+      path: __TN__/organizations/peerOrganizations/org1.example.com/connection-org1.yaml
+      discover: true
+  - mspid: Org2MSP
+    identities:
+      certificates:
+        - name: peternak1
+          clientPrivateKey:
+            path: __TN__/organizations/peerOrganizations/org2.example.com/users/peternak1@org2.example.com/msp/keystore/priv_sk
+          clientSignedCert:
+            path: __TN__/organizations/peerOrganizations/org2.example.com/users/peternak1@org2.example.com/msp/signcerts/cert.pem
+        - name: pemeriksa1
+          clientPrivateKey:
+            path: __TN__/organizations/peerOrganizations/org2.example.com/users/pemeriksa1@org2.example.com/msp/keystore/priv_sk
+          clientSignedCert:
+            path: __TN__/organizations/peerOrganizations/org2.example.com/users/pemeriksa1@org2.example.com/msp/signcerts/cert.pem
+        - name: rph1
+          clientPrivateKey:
+            path: __TN__/organizations/peerOrganizations/org2.example.com/users/rph1@org2.example.com/msp/keystore/priv_sk
+          clientSignedCert:
+            path: __TN__/organizations/peerOrganizations/org2.example.com/users/rph1@org2.example.com/msp/signcerts/cert.pem
+    connectionProfile:
+      path: __TN__/organizations/peerOrganizations/org2.example.com/connection-org2.yaml
+      discover: true

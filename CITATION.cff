@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below, and cite the article once it is published."
+title: "KurbanChain: Hyperledger Fabric traceability system for qurban (source code and benchmark data)"
+type: software
+version: 1.0.0
+date-released: 2026-10-29
+license: MIT
+authors:
+  - family-names: Hikmatyar
+    given-names: Missi
+    affiliation: "Department of Informatics Engineering, Universitas Perjuangan Tasikmalaya, Indonesia"
+  - family-names: Sudiarjo
+    given-names: Aso
+    affiliation: "Department of Informatics Engineering, Universitas Perjuangan Tasikmalaya, Indonesia"
+  - family-names: Ardigurnita
+    given-names: Firgian
+    affiliation: "Department of Animal Husbandry, Universitas Perjuangan Tasikmalaya, Indonesia"
+abstract: >-
+  KurbanChain is a permissioned-blockchain prototype on Hyperledger Fabric 2.5 that records the qurban
+  (Eid al-Adha animal sacrifice) chain from the donor's wakalah contract and payment, through the
+  animal's veterinary examination, share-quota assignment, slaughter within the program's time window and
+  attestation by a Shariah supervisor of another organization, to meat parcels with QR labels and their
+  receipt by recipients identified only by keyed hashes. The repository contains the chaincode, the web
+  application, scripts for a native (Docker-free) Fabric network, Hyperledger Caliper workloads, the raw
+  results of every benchmark reported in the accompanying article, and scripts that summarize the results
+  and recreate the article's performance figures.
+keywords:
+  - blockchain
+  - Hyperledger Fabric
+  - qurban
+  - traceability
+  - design science research
+  - performance evaluation
+  - Hyperledger Caliper

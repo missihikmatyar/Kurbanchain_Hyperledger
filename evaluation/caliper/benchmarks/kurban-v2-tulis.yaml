@@ -1,0 +1,39 @@
+# Varian tulis v2 untuk konfigurasi blok (BATCH_MAKS/BATCH_WAKTU). Hanya catatAkad karena kueri tidak melewati orderer.
+# Dibuat untuk revisi naskah: ronde 60 s, satu ronde pemanasan (label "pemanasan",
+# tidak dilaporkan). Laju = total semua worker.
+test:
+  name: kurbanchain-v2-tulis
+  description: "Uji tulis untuk membandingkan konfigurasi blok orderer (ronde 60 s)"
+  workers:
+    number: 2
+  rounds:
+    - label: pemanasan
+      description: Pencatatan akad, laju tetap 50 tps selama 20 detik
+      txDuration: 20
+      rateControl: {type: fixed-rate, opts: {tps: 50}}
+      workload: {module: workload/catatAkad.js}
+    - label: akad-25tps
+      description: Pencatatan akad, laju tetap 25 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 25}}
+      workload: {module: workload/catatAkad.js}
+    - label: akad-50tps
+      description: Pencatatan akad, laju tetap 50 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 50}}
+      workload: {module: workload/catatAkad.js}
+    - label: akad-100tps
+      description: Pencatatan akad, laju tetap 100 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 100}}
+      workload: {module: workload/catatAkad.js}
+    - label: akad-150tps
+      description: Pencatatan akad, laju tetap 150 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 150}}
+      workload: {module: workload/catatAkad.js}
+    - label: akad-200tps
+      description: Pencatatan akad, laju tetap 200 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 200}}
+      workload: {module: workload/catatAkad.js}

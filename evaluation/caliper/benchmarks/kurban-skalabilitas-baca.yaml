@@ -1,0 +1,23 @@
+# Sapuan halus beban baca di antara 200 dan 400 tps untuk menemukan titik jenuh
+# kueri (batas konkurensi Gateway peer). Laju = total semua worker.
+test:
+  name: kurbanchain-skalabilitas-baca
+  description: Throughput dan latensi kueri di sekitar titik jenuh
+  workers:
+    number: 2
+  rounds:
+    - label: baca-250tps
+      description: lacakKurban dan verifikasiPaket (kueri), laju tetap 250 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 250}}
+      workload: {module: workload/lacak.js}
+    - label: baca-300tps
+      description: lacakKurban dan verifikasiPaket (kueri), laju tetap 300 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 300}}
+      workload: {module: workload/lacak.js}
+    - label: baca-350tps
+      description: lacakKurban dan verifikasiPaket (kueri), laju tetap 350 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 350}}
+      workload: {module: workload/lacak.js}

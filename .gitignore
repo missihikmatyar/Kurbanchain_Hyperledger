@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# demo data and uploaded evidence files of the web application
+app/data/
+
+# local Caliper network profiles (written by siapkan-caliper.sh, contain local paths)
+evaluation/caliper/networks/*.local.yaml
+
+# output of ad-hoc Caliper runs; the results used in the paper are in evaluation/caliper/hasil/
+evaluation/caliper/report.html
+*.log
+
+# Python and OS clutter
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.env

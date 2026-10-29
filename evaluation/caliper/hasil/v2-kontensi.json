@@ -1,0 +1,260 @@
+{
+  "waktu": "2026-10-29T03:28:16.085Z",
+  "ulangan": 10,
+  "A": [
+    {
+      "pertama": {
+        "MVCC_READ_CONFLICT": 6,
+        "OK": 1
+      },
+      "okPercobaanPertama": 1,
+      "percobaanTotal": 28,
+      "putaran": 7,
+      "detikSampaiPenuh": 14.952243456,
+      "terisiAkhir": 7,
+      "kuota": 7
+    },
+    {
+      "pertama": {
+        "MVCC_READ_CONFLICT": 6,
+        "OK": 1
+      },
+      "okPercobaanPertama": 1,
+      "percobaanTotal": 28,
+      "putaran": 7,
+      "detikSampaiPenuh": 14.831452314,
+      "terisiAkhir": 7,
+      "kuota": 7
+    },
+    {
+      "pertama": {
+        "MVCC_READ_CONFLICT": 6,
+        "OK": 1
+      },
+      "okPercobaanPertama": 1,
+      "percobaanTotal": 28,
+      "putaran": 7,
+      "detikSampaiPenuh": 14.913105413,
+      "terisiAkhir": 7,
+      "kuota": 7
+    },
+    {
+      "pertama": {
+        "OK": 1,
+        "MVCC_READ_CONFLICT": 6
+      },
+      "okPercobaanPertama": 1,
+      "percobaanTotal": 28,
+      "putaran": 7,
+      "detikSampaiPenuh": 14.797970541,
+      "terisiAkhir": 7,
+      "kuota": 7
+    },
+    {
+      "pertama": {
+        "MVCC_READ_CONFLICT": 6,
+        "OK": 1
+      },
+      "okPercobaanPertama": 1,
+      "percobaanTotal": 28,
+      "putaran": 7,
+      "detikSampaiPenuh": 14.92846605,
+      "terisiAkhir": 7,
+      "kuota": 7
+    },
+    {
+      "pertama": {
+        "OK": 1,
+        "MVCC_READ_CONFLICT": 6
+      },
+      "okPercobaanPertama": 1,
+      "percobaanTotal": 28,
+      "putaran": 7,
+      "detikSampaiPenuh": 14.986886564,
+      "terisiAkhir": 7,
+      "kuota": 7
+    },
+    {
+      "pertama": {
+        "MVCC_READ_CONFLICT": 6,
+        "OK": 1
+      },
+      "okPercobaanPertama": 1,
+      "percobaanTotal": 28,
+      "putaran": 7,
+      "detikSampaiPenuh": 14.881059315,
+      "terisiAkhir": 7,
+      "kuota": 7
+    },
+    {
+      "pertama": {
+        "MVCC_READ_CONFLICT": 6,
+        "OK": 1
+      },
+      "okPercobaanPertama": 1,
+      "percobaanTotal": 28,
+      "putaran": 7,
+      "detikSampaiPenuh": 14.895185038,
+      "terisiAkhir": 7,
+      "kuota": 7
+    },
+    {
+      "pertama": {
+        "OK": 1,
+        "MVCC_READ_CONFLICT": 6
+      },
+      "okPercobaanPertama": 1,
+      "percobaanTotal": 28,
+      "putaran": 7,
+      "detikSampaiPenuh": 14.792536752,
+      "terisiAkhir": 7,
+      "kuota": 7
+    },
+    {
+      "pertama": {
+        "MVCC_READ_CONFLICT": 6,
+        "OK": 1
+      },
+      "okPercobaanPertama": 1,
+      "percobaanTotal": 28,
+      "putaran": 7,
+      "detikSampaiPenuh": 14.891695843,
+      "terisiAkhir": 7,
+      "kuota": 7
+    }
+  ],
+  "B": [
+    {
+      "hasil": {
+        "MVCC_READ_CONFLICT": 2,
+        "OK": 1
+      },
+      "terCommit": 1
+    },
+    {
+      "hasil": {
+        "OK": 1,
+        "MVCC_READ_CONFLICT": 2
+      },
+      "terCommit": 1
+    },
+    {
+      "hasil": {
+        "MVCC_READ_CONFLICT": 2,
+        "OK": 1
+      },
+      "terCommit": 1
+    },
+    {
+      "hasil": {
+        "OK": 1,
+        "MVCC_READ_CONFLICT": 2
+      },
+      "terCommit": 1
+    },
+    {
+      "hasil": {
+        "MVCC_READ_CONFLICT": 2,
+        "OK": 1
+      },
+      "terCommit": 1
+    },
+    {
+      "hasil": {
+        "OK": 1,
+        "MVCC_READ_CONFLICT": 2
+      },
+      "terCommit": 1
+    },
+    {
+      "hasil": {
+        "OK": 1,
+        "MVCC_READ_CONFLICT": 2
+      },
+      "terCommit": 1
+    },
+    {
+      "hasil": {
+        "MVCC_READ_CONFLICT": 2,
+        "OK": 1
+      },
+      "terCommit": 1
+    },
+    {
+      "hasil": {
+        "OK": 1,
+        "MVCC_READ_CONFLICT": 2
+      },
+      "terCommit": 1
+    },
+    {
+      "hasil": {
+        "OK": 1,
+        "MVCC_READ_CONFLICT": 2
+      },
+      "terCommit": 1
+    }
+  ],
+  "C": [
+    {
+      "hasil": {
+        "OK": 10
+      },
+      "terCommit": 10
+    },
+    {
+      "hasil": {
+        "OK": 10
+      },
+      "terCommit": 10
+    },
+    {
+      "hasil": {
+        "OK": 10
+      },
+      "terCommit": 10
+    },
+    {
+      "hasil": {
+        "OK": 10
+      },
+      "terCommit": 10
+    },
+    {
+      "hasil": {
+        "OK": 10
+      },
+      "terCommit": 10
+    },
+    {
+      "hasil": {
+        "OK": 10
+      },
+      "terCommit": 10
+    },
+    {
+      "hasil": {
+        "OK": 10
+      },
+      "terCommit": 10
+    },
+    {
+      "hasil": {
+        "OK": 10
+      },
+      "terCommit": 10
+    },
+    {
+      "hasil": {
+        "OK": 10
+      },
+      "terCommit": 10
+    },
+    {
+      "hasil": {
+        "OK": 10
+      },
+      "terCommit": 10
+    }
+  ]
+}

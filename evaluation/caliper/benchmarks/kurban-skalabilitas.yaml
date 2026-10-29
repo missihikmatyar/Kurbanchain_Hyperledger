@@ -1,0 +1,79 @@
+# Uji skalabilitas beban KurbanChain (Caliper 0.6) untuk jaringan native
+# (network/native/jaringan-native.sh): laju dinaikkan bertahap untuk mencari
+# titik jenuh throughput dan perubahan latensi. Laju = total semua worker.
+test:
+  name: kurbanchain-skalabilitas
+  description: Throughput dan latensi terhadap laju kirim, Fabric 2.5.14, 2 org, Raft, policy AND
+  workers:
+    number: 2
+  rounds:
+    - label: akad-10tps
+      description: Pencatatan akad, laju tetap 10 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 10}}
+      workload: {module: workload/catatAkad.js}
+    - label: akad-25tps
+      description: Pencatatan akad, laju tetap 25 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 25}}
+      workload: {module: workload/catatAkad.js}
+    - label: akad-50tps
+      description: Pencatatan akad, laju tetap 50 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 50}}
+      workload: {module: workload/catatAkad.js}
+    - label: akad-75tps
+      description: Pencatatan akad, laju tetap 75 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 75}}
+      workload: {module: workload/catatAkad.js}
+    - label: akad-100tps
+      description: Pencatatan akad, laju tetap 100 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 100}}
+      workload: {module: workload/catatAkad.js}
+    - label: akad-150tps
+      description: Pencatatan akad, laju tetap 150 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 150}}
+      workload: {module: workload/catatAkad.js}
+    - label: penerimaan-25tps
+      description: Penerimaan paket paralel dari hewan yang sama, laju tetap 25 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 25}}
+      workload: {module: workload/penerimaan.js, arguments: {paketPerWorker: 537}}
+    - label: penerimaan-50tps
+      description: Penerimaan paket paralel dari hewan yang sama, laju tetap 50 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 50}}
+      workload: {module: workload/penerimaan.js, arguments: {paketPerWorker: 1025}}
+    - label: penerimaan-100tps
+      description: Penerimaan paket paralel dari hewan yang sama, laju tetap 100 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 100}}
+      workload: {module: workload/penerimaan.js, arguments: {paketPerWorker: 2000}}
+    - label: penerimaan-150tps
+      description: Penerimaan paket paralel dari hewan yang sama, laju tetap 150 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 150}}
+      workload: {module: workload/penerimaan.js, arguments: {paketPerWorker: 2975}}
+    - label: baca-50tps
+      description: lacakKurban dan verifikasiPaket (kueri), laju tetap 50 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 50}}
+      workload: {module: workload/lacak.js}
+    - label: baca-100tps
+      description: lacakKurban dan verifikasiPaket (kueri), laju tetap 100 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 100}}
+      workload: {module: workload/lacak.js}
+    - label: baca-200tps
+      description: lacakKurban dan verifikasiPaket (kueri), laju tetap 200 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 200}}
+      workload: {module: workload/lacak.js}
+    - label: baca-400tps
+      description: lacakKurban dan verifikasiPaket (kueri), laju tetap 400 tps selama 30 detik
+      txDuration: 30
+      rateControl: {type: fixed-rate, opts: {tps: 400}}
+      workload: {module: workload/lacak.js}

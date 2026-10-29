@@ -1,0 +1,3997 @@
+{
+ "caliper": {
+  "main": {
+   "akad-10tps": {
+    "series": "recordContract",
+    "target_tps": 10,
+    "runs": 5,
+    "send_tps": 10.0,
+    "send_ci": 0.0,
+    "send_min": 10.0,
+    "send_max": 10.0,
+    "success_tps": 9.7,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.446,
+    "avg_latency_ci": 0.006799783525966107,
+    "avg_latency_min": 0.44,
+    "avg_latency_max": 0.45,
+    "max_latency_s": 2.026,
+    "max_latency_min": 2.02,
+    "max_latency_max": 2.03,
+    "failed_pct": 0.0
+   },
+   "akad-25tps": {
+    "series": "recordContract",
+    "target_tps": 25,
+    "runs": 5,
+    "send_tps": 25.0,
+    "send_ci": 0.0,
+    "send_min": 25.0,
+    "send_max": 25.0,
+    "success_tps": 24.2,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.198,
+    "avg_latency_ci": 0.005552000000000004,
+    "avg_latency_min": 0.19,
+    "avg_latency_max": 0.2,
+    "max_latency_s": 2.026,
+    "max_latency_min": 2.02,
+    "max_latency_max": 2.03,
+    "failed_pct": 0.0
+   },
+   "akad-50tps": {
+    "series": "recordContract",
+    "target_tps": 50,
+    "runs": 5,
+    "send_tps": 50.0,
+    "send_ci": 0.0,
+    "send_min": 50.0,
+    "send_max": 50.0,
+    "success_tps": 48.4,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.118,
+    "avg_latency_ci": 0.005551999999999996,
+    "avg_latency_min": 0.11,
+    "avg_latency_max": 0.12,
+    "max_latency_s": 2.028,
+    "max_latency_min": 2.02,
+    "max_latency_max": 2.06,
+    "failed_pct": 0.0
+   },
+   "akad-75tps": {
+    "series": "recordContract",
+    "target_tps": 75,
+    "runs": 5,
+    "send_tps": 75.0,
+    "send_ci": 0.0,
+    "send_min": 75.0,
+    "send_max": 75.0,
+    "success_tps": 72.6,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.096,
+    "avg_latency_ci": 0.006799783525966107,
+    "avg_latency_min": 0.09,
+    "avg_latency_max": 0.1,
+    "max_latency_s": 2.032,
+    "max_latency_min": 2.02,
+    "max_latency_max": 2.05,
+    "failed_pct": 0.0
+   },
+   "akad-100tps": {
+    "series": "recordContract",
+    "target_tps": 100,
+    "runs": 5,
+    "send_tps": 100.0,
+    "send_ci": 0.0,
+    "send_min": 100.0,
+    "send_max": 100.0,
+    "success_tps": 96.76,
+    "success_ci": 0.06799783525965715,
+    "avg_latency_s": 0.096,
+    "avg_latency_ci": 0.01415487816973357,
+    "avg_latency_min": 0.08,
+    "avg_latency_max": 0.11,
+    "max_latency_s": 2.038,
+    "max_latency_min": 2.03,
+    "max_latency_max": 2.06,
+    "failed_pct": 0.0
+   },
+   "akad-125tps": {
+    "series": "recordContract",
+    "target_tps": 125,
+    "runs": 5,
+    "send_tps": 124.7,
+    "send_ci": 0.45614334589030753,
+    "send_min": 124.1,
+    "send_max": 125.0,
+    "success_tps": 120.53999999999999,
+    "success_ci": 0.5927913845527751,
+    "avg_latency_s": 0.17200000000000001,
+    "avg_latency_ci": 0.09012385646431248,
+    "avg_latency_min": 0.1,
+    "avg_latency_max": 0.26,
+    "max_latency_s": 2.144,
+    "max_latency_min": 2.08,
+    "max_latency_max": 2.32,
+    "failed_pct": 0.0
+   },
+   "akad-150tps": {
+    "series": "recordContract",
+    "target_tps": 150,
+    "runs": 5,
+    "send_tps": 135.2,
+    "send_ci": 11.58061228640351,
+    "send_min": 125.9,
+    "send_max": 149.1,
+    "success_tps": 130.6,
+    "success_ci": 11.220329643642375,
+    "avg_latency_s": 0.262,
+    "avg_latency_ci": 0.03444925404127062,
+    "avg_latency_min": 0.22,
+    "avg_latency_max": 0.29,
+    "max_latency_s": 2.274,
+    "max_latency_min": 2.14,
+    "max_latency_max": 2.52,
+    "failed_pct": 0.0
+   },
+   "akad-200tps": {
+    "series": "recordContract",
+    "target_tps": 200,
+    "runs": 5,
+    "send_tps": 138.8,
+    "send_ci": 12.464827335827806,
+    "send_min": 127.6,
+    "send_max": 153.9,
+    "success_tps": 135.14,
+    "success_ci": 14.483592116653929,
+    "avg_latency_s": 0.242,
+    "avg_latency_ci": 0.010386840905684456,
+    "avg_latency_min": 0.23,
+    "avg_latency_max": 0.25,
+    "max_latency_s": 2.108,
+    "max_latency_min": 1.72,
+    "max_latency_max": 2.49,
+    "failed_pct": 0.0
+   },
+   "penerimaan-25tps": {
+    "series": "recordReceipt",
+    "target_tps": 25,
+    "runs": 5,
+    "send_tps": 25.0,
+    "send_ci": 0.0,
+    "send_min": 25.0,
+    "send_max": 25.0,
+    "success_tps": 24.2,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.198,
+    "avg_latency_ci": 0.005552000000000004,
+    "avg_latency_min": 0.19,
+    "avg_latency_max": 0.2,
+    "max_latency_s": 2.022,
+    "max_latency_min": 2.02,
+    "max_latency_max": 2.03,
+    "failed_pct": 0.0
+   },
+   "penerimaan-50tps": {
+    "series": "recordReceipt",
+    "target_tps": 50,
+    "runs": 5,
+    "send_tps": 50.0,
+    "send_ci": 0.0,
+    "send_min": 50.0,
+    "send_max": 50.0,
+    "success_tps": 48.4,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.118,
+    "avg_latency_ci": 0.005551999999999996,
+    "avg_latency_min": 0.11,
+    "avg_latency_max": 0.12,
+    "max_latency_s": 2.03,
+    "max_latency_min": 2.02,
+    "max_latency_max": 2.05,
+    "failed_pct": 0.0
+   },
+   "penerimaan-100tps": {
+    "series": "recordReceipt",
+    "target_tps": 100,
+    "runs": 5,
+    "send_tps": 100.0,
+    "send_ci": 0.0,
+    "send_min": 100.0,
+    "send_max": 100.0,
+    "success_tps": 96.72,
+    "success_ci": 0.10386840905684502,
+    "avg_latency_s": 0.124,
+    "avg_latency_ci": 0.036827801672106364,
+    "avg_latency_min": 0.09,
+    "avg_latency_max": 0.17,
+    "max_latency_s": 2.07,
+    "max_latency_min": 2.03,
+    "max_latency_max": 2.18,
+    "failed_pct": 0.0
+   },
+   "penerimaan-150tps": {
+    "series": "recordReceipt",
+    "target_tps": 150,
+    "runs": 5,
+    "send_tps": 130.1,
+    "send_ci": 13.400059961656885,
+    "send_min": 115.1,
+    "send_max": 142.6,
+    "success_tps": 125.67999999999999,
+    "success_ci": 13.051156676647473,
+    "avg_latency_s": 0.274,
+    "avg_latency_ci": 0.03682780167210636,
+    "avg_latency_min": 0.24,
+    "avg_latency_max": 0.32,
+    "max_latency_s": 2.248,
+    "max_latency_min": 2.13,
+    "max_latency_max": 2.45,
+    "failed_pct": 0.0
+   },
+   "lacak-50tps": {
+    "series": "trackContract",
+    "target_tps": 50,
+    "runs": 5,
+    "send_tps": 50.0,
+    "send_ci": 0.0,
+    "send_min": 50.0,
+    "send_max": 50.0,
+    "success_tps": 50.0,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.012,
+    "avg_latency_ci": 0.005552,
+    "avg_latency_min": 0.01,
+    "avg_latency_max": 0.02,
+    "max_latency_s": 0.066,
+    "max_latency_min": 0.06,
+    "max_latency_max": 0.09,
+    "failed_pct": 0.0
+   },
+   "lacak-100tps": {
+    "series": "trackContract",
+    "target_tps": 100,
+    "runs": 5,
+    "send_tps": 100.0,
+    "send_ci": 0.0,
+    "send_min": 100.0,
+    "send_max": 100.0,
+    "success_tps": 100.0,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.014,
+    "avg_latency_ci": 0.006799783525966102,
+    "avg_latency_min": 0.01,
+    "avg_latency_max": 0.02,
+    "max_latency_s": 0.098,
+    "max_latency_min": 0.07,
+    "max_latency_max": 0.14,
+    "failed_pct": 0.0
+   },
+   "lacak-150tps": {
+    "series": "trackContract",
+    "target_tps": 150,
+    "runs": 5,
+    "send_tps": 150.0,
+    "send_ci": 0.0,
+    "send_min": 150.0,
+    "send_max": 150.0,
+    "success_tps": 149.98,
+    "success_ci": 0.05551999999999684,
+    "avg_latency_s": 0.028,
+    "avg_latency_ci": 0.01038684090568446,
+    "avg_latency_min": 0.02,
+    "avg_latency_max": 0.04,
+    "max_latency_s": 0.19,
+    "max_latency_min": 0.14,
+    "max_latency_max": 0.28,
+    "failed_pct": 0.0
+   },
+   "lacak-200tps": {
+    "series": "trackContract",
+    "target_tps": 200,
+    "runs": 5,
+    "send_tps": 200.0,
+    "send_ci": 0.0,
+    "send_min": 200.0,
+    "send_max": 200.0,
+    "success_tps": 199.96,
+    "success_ci": 0.06799783525965715,
+    "avg_latency_s": 0.068,
+    "avg_latency_ci": 0.020399350577898306,
+    "avg_latency_min": 0.04,
+    "avg_latency_max": 0.08,
+    "max_latency_s": 0.326,
+    "max_latency_min": 0.25,
+    "max_latency_max": 0.39,
+    "failed_pct": 0.0
+   },
+   "lacak-250tps": {
+    "series": "trackContract",
+    "target_tps": 250,
+    "runs": 5,
+    "send_tps": 250.0,
+    "send_ci": 0.0,
+    "send_min": 250.0,
+    "send_max": 250.0,
+    "success_tps": 249.0,
+    "success_ci": 0.9892847679005251,
+    "avg_latency_s": 0.404,
+    "avg_latency_ci": 0.29464856832504716,
+    "avg_latency_min": 0.1,
+    "avg_latency_max": 0.71,
+    "max_latency_s": 1.314,
+    "max_latency_min": 0.4,
+    "max_latency_max": 2.51,
+    "failed_pct": 0.1386481802426343
+   },
+   "verifikasi-100tps": {
+    "series": "verifyParcel",
+    "target_tps": 100,
+    "runs": 5,
+    "send_tps": 100.0,
+    "send_ci": 0.0,
+    "send_min": 100.0,
+    "send_max": 100.0,
+    "success_tps": 100.0,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.006,
+    "avg_latency_ci": 0.006799783525966102,
+    "avg_latency_min": 0.0,
+    "avg_latency_max": 0.01,
+    "max_latency_s": 0.066,
+    "max_latency_min": 0.03,
+    "max_latency_max": 0.17,
+    "failed_pct": 0.0
+   },
+   "verifikasi-200tps": {
+    "series": "verifyParcel",
+    "target_tps": 200,
+    "runs": 5,
+    "send_tps": 200.0,
+    "send_ci": 0.0,
+    "send_min": 200.0,
+    "send_max": 200.0,
+    "success_tps": 200.0,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.01,
+    "avg_latency_ci": 0.0,
+    "avg_latency_min": 0.01,
+    "avg_latency_max": 0.01,
+    "max_latency_s": 0.106,
+    "max_latency_min": 0.06,
+    "max_latency_max": 0.18,
+    "failed_pct": 0.0
+   },
+   "verifikasi-300tps": {
+    "series": "verifyParcel",
+    "target_tps": 300,
+    "runs": 5,
+    "send_tps": 300.0,
+    "send_ci": 0.0,
+    "send_min": 300.0,
+    "send_max": 300.0,
+    "success_tps": 300.0,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.01,
+    "avg_latency_ci": 0.0,
+    "avg_latency_min": 0.01,
+    "avg_latency_max": 0.01,
+    "max_latency_s": 0.14,
+    "max_latency_min": 0.07,
+    "max_latency_max": 0.39,
+    "failed_pct": 0.0
+   },
+   "verifikasi-400tps": {
+    "series": "verifyParcel",
+    "target_tps": 400,
+    "runs": 5,
+    "send_tps": 399.96,
+    "send_ci": 0.06799783525967648,
+    "send_min": 399.9,
+    "send_max": 400.0,
+    "success_tps": 399.94,
+    "success_ci": 0.11103999999999763,
+    "avg_latency_s": 0.016,
+    "avg_latency_ci": 0.006799783525966102,
+    "avg_latency_min": 0.01,
+    "avg_latency_max": 0.02,
+    "max_latency_s": 0.14,
+    "max_latency_min": 0.1,
+    "max_latency_max": 0.19,
+    "failed_pct": 0.0
+   }
+  },
+  "naive": {
+   "penerimaan-25tps": {
+    "series": "recordReceipt",
+    "target_tps": 25,
+    "runs": 3,
+    "send_tps": 25.0,
+    "send_ci": 0.0,
+    "send_min": 25.0,
+    "send_max": 25.0,
+    "success_tps": 4.933333333333334,
+    "success_ci": 0.14343333333333283,
+    "avg_latency_s": 0.37,
+    "avg_latency_ci": 0.0,
+    "avg_latency_min": 0.37,
+    "avg_latency_max": 0.37,
+    "max_latency_s": 1.5033333333333332,
+    "max_latency_min": 0.44,
+    "max_latency_max": 2.04,
+    "failed_pct": 79.93786063027075
+   },
+   "penerimaan-50tps": {
+    "series": "recordReceipt",
+    "target_tps": 50,
+    "runs": 3,
+    "send_tps": 50.0,
+    "send_ci": 0.0,
+    "send_min": 50.0,
+    "send_max": 50.0,
+    "success_tps": 9.5,
+    "success_ci": 0.4968676416645902,
+    "avg_latency_s": 0.20333333333333334,
+    "avg_latency_ci": 0.014343333333333307,
+    "avg_latency_min": 0.2,
+    "avg_latency_max": 0.21,
+    "max_latency_s": 1.4266666666666665,
+    "max_latency_min": 0.28,
+    "max_latency_max": 2.01,
+    "failed_pct": 80.60182100821675
+   },
+   "penerimaan-100tps": {
+    "series": "recordReceipt",
+    "target_tps": 100,
+    "runs": 3,
+    "send_tps": 99.96666666666667,
+    "send_ci": 0.14343333333332517,
+    "send_min": 99.9,
+    "send_max": 100.0,
+    "success_tps": 15.1,
+    "success_ci": 1.3145882143596657,
+    "avg_latency_s": 0.14666666666666667,
+    "avg_latency_ci": 0.014343333333333307,
+    "avg_latency_min": 0.14,
+    "avg_latency_max": 0.15,
+    "max_latency_s": 0.9133333333333333,
+    "max_latency_min": 0.28,
+    "max_latency_max": 2.12,
+    "failed_pct": 84.52777777777777
+   }
+  },
+  "or": {
+   "akad-25tps": {
+    "series": "recordContract",
+    "target_tps": 25,
+    "runs": 3,
+    "send_tps": 25.0,
+    "send_ci": 0.0,
+    "send_min": 25.0,
+    "send_max": 25.0,
+    "success_tps": 24.2,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.19666666666666668,
+    "avg_latency_ci": 0.014343333333333349,
+    "avg_latency_min": 0.19,
+    "avg_latency_max": 0.2,
+    "max_latency_s": 2.0233333333333334,
+    "max_latency_min": 2.02,
+    "max_latency_max": 2.03,
+    "failed_pct": 0.0
+   },
+   "akad-50tps": {
+    "series": "recordContract",
+    "target_tps": 50,
+    "runs": 3,
+    "send_tps": 50.0,
+    "send_ci": 0.0,
+    "send_min": 50.0,
+    "send_max": 50.0,
+    "success_tps": 48.4,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.11333333333333333,
+    "avg_latency_ci": 0.014343333333333326,
+    "avg_latency_min": 0.11,
+    "avg_latency_max": 0.12,
+    "max_latency_s": 2.02,
+    "max_latency_min": 2.02,
+    "max_latency_max": 2.02,
+    "failed_pct": 0.0
+   },
+   "akad-100tps": {
+    "series": "recordContract",
+    "target_tps": 100,
+    "runs": 3,
+    "send_tps": 100.0,
+    "send_ci": 0.0,
+    "send_min": 100.0,
+    "send_max": 100.0,
+    "success_tps": 96.8,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.09,
+    "avg_latency_ci": 0.0,
+    "avg_latency_min": 0.09,
+    "avg_latency_max": 0.09,
+    "max_latency_s": 2.04,
+    "max_latency_min": 2.02,
+    "max_latency_max": 2.08,
+    "failed_pct": 0.0
+   },
+   "akad-150tps": {
+    "series": "recordContract",
+    "target_tps": 150,
+    "runs": 3,
+    "send_tps": 148.36666666666667,
+    "send_ci": 6.6026088506320235,
+    "send_min": 145.3,
+    "send_max": 150.0,
+    "success_tps": 143.53333333333333,
+    "success_ci": 6.315954546578415,
+    "avg_latency_s": 0.12666666666666668,
+    "avg_latency_ci": 0.03794889297170313,
+    "avg_latency_min": 0.11,
+    "avg_latency_max": 0.14,
+    "max_latency_s": 2.06,
+    "max_latency_min": 2.02,
+    "max_latency_max": 2.13,
+    "failed_pct": 0.0
+   },
+   "akad-200tps": {
+    "series": "recordContract",
+    "target_tps": 200,
+    "runs": 3,
+    "send_tps": 154.13333333333333,
+    "send_ci": 19.628368221728902,
+    "send_min": 146.3,
+    "send_max": 162.1,
+    "success_tps": 149.06666666666666,
+    "success_ci": 19.008569806128104,
+    "avg_latency_s": 0.14,
+    "avg_latency_ci": 0.0,
+    "avg_latency_min": 0.14,
+    "avg_latency_max": 0.14,
+    "max_latency_s": 2.0533333333333332,
+    "max_latency_min": 2.04,
+    "max_latency_max": 2.06,
+    "failed_pct": 0.0
+   },
+   "penerimaan-100tps": {
+    "series": "recordReceipt",
+    "target_tps": 100,
+    "runs": 3,
+    "send_tps": 100.0,
+    "send_ci": 0.0,
+    "send_min": 100.0,
+    "send_max": 100.0,
+    "success_tps": 96.8,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.08333333333333333,
+    "avg_latency_ci": 0.014343333333333326,
+    "avg_latency_min": 0.08,
+    "avg_latency_max": 0.09,
+    "max_latency_s": 2.0233333333333334,
+    "max_latency_min": 2.02,
+    "max_latency_max": 2.03,
+    "failed_pct": 0.0
+   },
+   "penerimaan-150tps": {
+    "series": "recordReceipt",
+    "target_tps": 150,
+    "runs": 3,
+    "send_tps": 149.6,
+    "send_ci": 0.496867641664599,
+    "send_min": 149.4,
+    "send_max": 149.8,
+    "success_tps": 144.76666666666665,
+    "success_ci": 0.5171562379440617,
+    "avg_latency_s": 0.1366666666666667,
+    "avg_latency_ci": 0.014343333333333349,
+    "avg_latency_min": 0.13,
+    "avg_latency_max": 0.14,
+    "max_latency_s": 2.0966666666666667,
+    "max_latency_min": 2.03,
+    "max_latency_max": 2.17,
+    "failed_pct": 0.0
+   }
+  },
+  "block20": {
+   "akad-25tps": {
+    "series": "recordContract",
+    "target_tps": 25,
+    "runs": 3,
+    "send_tps": 25.0,
+    "send_ci": 0.0,
+    "send_min": 25.0,
+    "send_max": 25.0,
+    "success_tps": 24.933333333333334,
+    "success_ci": 0.14343333333333538,
+    "avg_latency_s": 0.30666666666666664,
+    "avg_latency_ci": 0.028686666666666697,
+    "avg_latency_min": 0.3,
+    "avg_latency_max": 0.32,
+    "max_latency_s": 0.6,
+    "max_latency_min": 0.57,
+    "max_latency_max": 0.62,
+    "failed_pct": 0.0
+   },
+   "akad-50tps": {
+    "series": "recordContract",
+    "target_tps": 50,
+    "runs": 3,
+    "send_tps": 50.0,
+    "send_ci": 0.0,
+    "send_min": 50.0,
+    "send_max": 50.0,
+    "success_tps": 49.6,
+    "success_ci": 0.0,
+    "avg_latency_s": 0.23666666666666666,
+    "avg_latency_ci": 0.028686666666666652,
+    "avg_latency_min": 0.23,
+    "avg_latency_max": 0.25,
+    "max_latency_s": 0.5466666666666666,
+    "max_latency_min": 0.52,
+    "max_latency_max": 0.59,
+    "failed_pct": 0.0
+   },
+   "akad-100tps": {
+    "series": "recordContract",
+    "target_tps": 100,
+    "runs": 3,
+    "send_tps": 100.0,
+    "send_ci": 0.0,
+    "send_min": 100.0,
+    "send_max": 100.0,
+    "success_tps": 99.36666666666666,
+    "success_ci": 1.147466666666683,
+    "avg_latency_s": 0.18666666666666668,
+    "avg_latency_ci": 0.028686666666666697,
+    "avg_latency_min": 0.18,
+    "avg_latency_max": 0.2,
+    "max_latency_s": 0.57,
+    "max_latency_min": 0.57,
+    "max_latency_max": 0.57,
+    "failed_pct": 0.0
+   },
+   "akad-150tps": {
+    "series": "recordContract",
+    "target_tps": 150,
+    "runs": 3,
+    "send_tps": 130.9,
+    "send_ci": 7.969267524057649,
+    "send_min": 128.9,
+    "send_max": 134.6,
+    "success_tps": 129.83333333333334,
+    "success_ci": 7.923961485968427,
+    "avg_latency_s": 0.32666666666666666,
+    "avg_latency_ci": 0.051715623794405134,
+    "avg_latency_min": 0.31,
+    "avg_latency_max": 0.35,
+    "max_latency_s": 1.3666666666666667,
+    "max_latency_min": 1.03,
+    "max_latency_max": 1.66,
+    "failed_pct": 0.0
+   },
+   "akad-200tps": {
+    "series": "recordContract",
+    "target_tps": 200,
+    "runs": 3,
+    "send_tps": 134.6,
+    "send_ci": 5.5939000000000005,
+    "send_min": 132.4,
+    "send_max": 136.9,
+    "success_tps": 133.33333333333334,
+    "success_ci": 5.5902210124267695,
+    "avg_latency_s": 0.31333333333333335,
+    "avg_latency_ci": 0.028686666666666697,
+    "avg_latency_min": 0.3,
+    "avg_latency_max": 0.32,
+    "max_latency_s": 1.2066666666666666,
+    "max_latency_min": 0.92,
+    "max_latency_max": 1.51,
+    "failed_pct": 0.0
+   }
+  },
+  "block100": {
+   "akad-25tps": {
+    "series": "recordContract",
+    "target_tps": 25,
+    "runs": 3,
+    "send_tps": 25.0,
+    "send_ci": 0.0,
+    "send_min": 25.0,
+    "send_max": 25.0,
+    "success_tps": 24.9,
+    "success_ci": 0.2484338208322951,
+    "avg_latency_s": 0.30333333333333334,
+    "avg_latency_ci": 0.014343333333333349,
+    "avg_latency_min": 0.3,
+    "avg_latency_max": 0.31,
+    "max_latency_s": 0.7533333333333333,
+    "max_latency_min": 0.57,
+    "max_latency_max": 1.05,
+    "failed_pct": 0.0
+   },
+   "akad-50tps": {
+    "series": "recordContract",
+    "target_tps": 50,
+    "runs": 3,
+    "send_tps": 50.0,
+    "send_ci": 0.0,
+    "send_min": 50.0,
+    "send_max": 50.0,
+    "success_tps": 49.7,
+    "success_ci": 0.43029999999999596,
+    "avg_latency_s": 0.33,
+    "avg_latency_ci": 0.0,
+    "avg_latency_min": 0.33,
+    "avg_latency_max": 0.33,
+    "max_latency_s": 0.6666666666666667,
+    "max_latency_min": 0.66,
+    "max_latency_max": 0.68,
+    "failed_pct": 0.0
+   },
+   "akad-100tps": {
+    "series": "recordContract",
+    "target_tps": 100,
+    "runs": 3,
+    "send_tps": 100.0,
+    "send_ci": 0.0,
+    "send_min": 100.0,
+    "send_max": 100.0,
+    "success_tps": 99.3,
+    "success_ci": 0.6572941071798287,
+    "avg_latency_s": 0.41333333333333333,
+    "avg_latency_ci": 0.051715623794405134,
+    "avg_latency_min": 0.39,
+    "avg_latency_max": 0.43,
+    "max_latency_s": 0.9133333333333333,
+    "max_latency_min": 0.83,
+    "max_latency_max": 1.03,
+    "failed_pct": 0.0
+   },
+   "akad-150tps": {
+    "series": "recordContract",
+    "target_tps": 150,
+    "runs": 3,
+    "send_tps": 137.4,
+    "send_ci": 11.28666318802862,
+    "send_min": 132.2,
+    "send_max": 140.6,
+    "success_tps": 136.63333333333333,
+    "success_ci": 10.292278688468892,
+    "avg_latency_s": 0.6066666666666667,
+    "avg_latency_ci": 0.07986030017752535,
+    "avg_latency_min": 0.57,
+    "avg_latency_max": 0.63,
+    "max_latency_s": 1.5933333333333333,
+    "max_latency_min": 1.24,
+    "max_latency_max": 2.04,
+    "failed_pct": 0.0
+   },
+   "akad-200tps": {
+    "series": "recordContract",
+    "target_tps": 200,
+    "runs": 3,
+    "send_tps": 133.0,
+    "send_ci": 8.947067354353225,
+    "send_min": 129.8,
+    "send_max": 136.9,
+    "success_tps": 132.33333333333334,
+    "success_ci": 8.229624213642944,
+    "avg_latency_s": 0.5933333333333333,
+    "avg_latency_ci": 0.037948892971703146,
+    "avg_latency_min": 0.58,
+    "avg_latency_max": 0.61,
+    "max_latency_s": 1.49,
+    "max_latency_min": 1.25,
+    "max_latency_max": 1.66,
+    "failed_pct": 0.0
+   }
+  },
+  "saturation": {
+   "lacak-300tps": {
+    "series": "trackContract",
+    "target_tps": 300,
+    "runs": 3,
+    "send_tps": 300.0,
+    "send_ci": 0.0,
+    "send_min": 300.0,
+    "send_max": 300.0,
+    "success_tps": 208.43333333333334,
+    "success_ci": 22.46415116879434,
+    "avg_latency_s": 2.3333333333333335,
+    "avg_latency_ci": 0.2549726705180595,
+    "avg_latency_min": 2.22,
+    "avg_latency_max": 2.42,
+    "max_latency_s": 3.1033333333333335,
+    "max_latency_min": 2.91,
+    "max_latency_max": 3.21,
+    "failed_pct": 29.77852672123255
+   },
+   "lacak-350tps": {
+    "series": "trackContract",
+    "target_tps": 350,
+    "runs": 3,
+    "send_tps": 349.8,
+    "send_ci": 0.8606000000000326,
+    "send_min": 349.4,
+    "send_max": 350.0,
+    "success_tps": 198.4,
+    "success_ci": 55.460868280647524,
+    "avg_latency_s": 2.48,
+    "avg_latency_ci": 0.7419816176519021,
+    "avg_latency_min": 2.26,
+    "avg_latency_max": 2.82,
+    "max_latency_s": 3.2733333333333334,
+    "max_latency_min": 3.0,
+    "max_latency_max": 3.71,
+    "failed_pct": 42.54792040527879
+   },
+   "lacak-400tps": {
+    "series": "trackContract",
+    "target_tps": 400,
+    "runs": 3,
+    "send_tps": 392.6666666666667,
+    "send_ci": 29.640074068864617,
+    "send_min": 378.9,
+    "send_max": 400.0,
+    "success_tps": 187.70000000000002,
+    "success_ci": 50.990701300760065,
+    "avg_latency_s": 2.62,
+    "avg_latency_ci": 0.7165927036562216,
+    "avg_latency_min": 2.38,
+    "avg_latency_max": 2.94,
+    "max_latency_s": 3.4266666666666667,
+    "max_latency_min": 2.89,
+    "max_latency_max": 4.01,
+    "failed_pct": 51.66803429444555
+   },
+   "lacak-500tps": {
+    "series": "trackContract",
+    "target_tps": 500,
+    "runs": 3,
+    "send_tps": 408.8333333333333,
+    "send_ci": 36.75841230540899,
+    "send_min": 391.8,
+    "send_max": 418.5,
+    "success_tps": 186.0,
+    "success_ci": 11.958418158073144,
+    "avg_latency_s": 2.6233333333333335,
+    "avg_latency_ci": 0.14974879635947375,
+    "avg_latency_min": 2.56,
+    "avg_latency_max": 2.68,
+    "max_latency_s": 3.2966666666666664,
+    "max_latency_min": 3.17,
+    "max_latency_max": 3.38,
+    "failed_pct": 53.99092292640504
+   },
+   "verifikasi-500tps": {
+    "series": "verifyParcel",
+    "target_tps": 500,
+    "runs": 3,
+    "send_tps": 432.6333333333333,
+    "send_ci": 4.474108496796958,
+    "send_min": 430.8,
+    "send_max": 434.4,
+    "success_tps": 432.5,
+    "success_ci": 4.352912191089244,
+    "avg_latency_s": 0.03,
+    "avg_latency_ci": 0.0,
+    "avg_latency_min": 0.03,
+    "avg_latency_max": 0.03,
+    "max_latency_s": 0.26666666666666666,
+    "max_latency_min": 0.2,
+    "max_latency_max": 0.35,
+    "failed_pct": 0.0
+   },
+   "verifikasi-600tps": {
+    "series": "verifyParcel",
+    "target_tps": 600,
+    "runs": 3,
+    "send_tps": 440.4,
+    "send_ci": 47.7154649354204,
+    "send_min": 424.4,
+    "send_max": 461.7,
+    "success_tps": 440.3,
+    "success_ci": 47.715464935420414,
+    "avg_latency_s": 0.026666666666666665,
+    "avg_latency_ci": 0.014343333333333333,
+    "avg_latency_min": 0.02,
+    "avg_latency_max": 0.03,
+    "max_latency_s": 0.16333333333333333,
+    "max_latency_min": 0.11,
+    "max_latency_max": 0.2,
+    "failed_pct": 0.0
+   },
+   "verifikasi-800tps": {
+    "series": "verifyParcel",
+    "target_tps": 800,
+    "runs": 3,
+    "send_tps": 436.9,
+    "send_ci": 74.28503588388449,
+    "send_min": 405.2,
+    "send_max": 464.6,
+    "success_tps": 436.76666666666665,
+    "success_ci": 74.17001325163538,
+    "avg_latency_s": 0.026666666666666665,
+    "avg_latency_ci": 0.014343333333333333,
+    "avg_latency_min": 0.02,
+    "avg_latency_max": 0.03,
+    "max_latency_s": 0.16,
+    "max_latency_min": 0.13,
+    "max_latency_max": 0.2,
+    "failed_pct": 0.0
+   }
+  }
+ },
+ "resources": {
+  "main": {
+   "akad-10tps": {
+    "host_cpu": {
+     "mean": 11.768,
+     "ci": 1.382977456845917,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 0.964,
+     "ci": 0.30060375875228174,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 8.83,
+     "ci": 0.7604416131696107,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 1.16,
+     "ci": 0.12321187734954774,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 3.536,
+     "ci": 0.2323563406838729,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 7.916,
+     "ci": 0.7604720140123503,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 216.716,
+     "ci": 2.735544827564698,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 62.294,
+     "ci": 3.1552460997037906,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 181.246,
+     "ci": 0.40501069410078855,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 364.634,
+     "ci": 1.5506041239001125,
+     "runs": 5
+    }
+   },
+   "akad-25tps": {
+    "host_cpu": {
+     "mean": 25.252,
+     "ci": 3.5198147474524855,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 1.8199999999999998,
+     "ci": 0.665487741975763,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 17.904,
+     "ci": 1.8860381801267965,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 2.736,
+     "ci": 0.4065300118023266,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 7.882000000000001,
+     "ci": 0.9773491392046137,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 19.084,
+     "ci": 2.0479205066447275,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 220.794,
+     "ci": 2.576086120349242,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 71.878,
+     "ci": 3.819945461357266,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 183.056,
+     "ci": 0.8373494667915014,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 370.518,
+     "ci": 9.094480202482377,
+     "runs": 5
+    }
+   },
+   "akad-50tps": {
+    "host_cpu": {
+     "mean": 44.048,
+     "ci": 3.5996746410841087,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 2.424,
+     "ci": 0.9039962057973474,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 32.028,
+     "ci": 2.2617228949418173,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 4.976,
+     "ci": 0.718045549708373,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 13.443999999999999,
+     "ci": 1.1244890373569671,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 32.418,
+     "ci": 2.802487148699168,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 228.004,
+     "ci": 2.9010674297465076,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 65.118,
+     "ci": 3.2244814382570084,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 189.774,
+     "ci": 0.7855932860812966,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 385.816,
+     "ci": 36.76682482490452,
+     "runs": 5
+    }
+   },
+   "akad-75tps": {
+    "host_cpu": {
+     "mean": 60.342,
+     "ci": 4.646657500481823,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 2.93,
+     "ci": 0.8526433274470633,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 45.652,
+     "ci": 2.9732813200879606,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 7.03,
+     "ci": 0.8989697865445759,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 18.256,
+     "ci": 1.5501070652880726,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 45.174,
+     "ci": 3.223886299176197,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 238.664,
+     "ci": 3.8517297606057395,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 66.928,
+     "ci": 2.687684148776407,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 197.738,
+     "ci": 3.842463351599338,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 397.288,
+     "ci": 39.357225368687565,
+     "runs": 5
+    }
+   },
+   "akad-100tps": {
+    "host_cpu": {
+     "mean": 74.928,
+     "ci": 3.478100905595464,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 3.298,
+     "ci": 0.8577974756223056,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 56.364000000000004,
+     "ci": 2.179515369749889,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 8.938,
+     "ci": 0.9482143104931496,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 23.784,
+     "ci": 1.1902081790073533,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 55.272,
+     "ci": 2.889193266236096,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 255.82,
+     "ci": 3.8789770253921234,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 69.68,
+     "ci": 3.03268312431088,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 204.942,
+     "ci": 1.0015321726554842,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 412.834,
+     "ci": 32.54235263097394,
+     "runs": 5
+    }
+   },
+   "akad-125tps": {
+    "host_cpu": {
+     "mean": 84.662,
+     "ci": 3.03729668884421,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 3.254,
+     "ci": 0.9068049493998146,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 61.108,
+     "ci": 1.9156290805226366,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 10.408,
+     "ci": 0.9293756134007385,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 26.854,
+     "ci": 0.40823248544916096,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 65.81,
+     "ci": 3.321887382943619,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 272.034,
+     "ci": 7.3203472657474356,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 68.72200000000001,
+     "ci": 2.924373375734365,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 221.144,
+     "ci": 15.695712665043791,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 429.928,
+     "ci": 38.04698284420544,
+     "runs": 5
+    }
+   },
+   "akad-150tps": {
+    "host_cpu": {
+     "mean": 86.954,
+     "ci": 0.6069608305780507,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 3.298,
+     "ci": 0.8849041575583197,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 62.006,
+     "ci": 1.6580553257644928,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 10.678,
+     "ci": 0.5788742153387036,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 26.412,
+     "ci": 0.5224783044529213,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 69.61,
+     "ci": 1.2162238622885202,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 271.652,
+     "ci": 6.341513016817346,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 71.89399999999999,
+     "ci": 5.0182955246513705,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 243.404,
+     "ci": 4.786476090145663,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 457.08,
+     "ci": 34.341959840535594,
+     "runs": 5
+    }
+   },
+   "akad-200tps": {
+    "host_cpu": {
+     "mean": 87.95,
+     "ci": 1.5880321457703526,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 3.126,
+     "ci": 0.7867205549723484,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 62.73,
+     "ci": 1.6388512810136235,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 10.852,
+     "ci": 0.5897546503284223,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 26.704,
+     "ci": 0.9931952300811748,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 70.818,
+     "ci": 2.126430496034137,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 287.88,
+     "ci": 3.2826830903028066,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 71.19800000000001,
+     "ci": 3.240014200423204,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 250.706,
+     "ci": 1.400507819534038,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 475.468,
+     "ci": 35.7360674353212,
+     "runs": 5
+    }
+   },
+   "penerimaan-25tps": {
+    "host_cpu": {
+     "mean": 23.83,
+     "ci": 3.0123373588494355,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 1.744,
+     "ci": 0.6511243958077443,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 18.75,
+     "ci": 2.1607553751778568,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 2.738,
+     "ci": 0.35576148558268633,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 6.99,
+     "ci": 0.8406285381784274,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 16.412,
+     "ci": 1.4233708213617418,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 294.592,
+     "ci": 7.555680470601168,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 69.858,
+     "ci": 4.20295384316126,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 252.134,
+     "ci": 1.4468686697333566,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 478.35,
+     "ci": 38.698917584416236,
+     "runs": 5
+    }
+   },
+   "penerimaan-50tps": {
+    "host_cpu": {
+     "mean": 45.178,
+     "ci": 5.158980719210337,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 2.734,
+     "ci": 0.895431062726774,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 35.258,
+     "ci": 3.7468740570966608,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 5.136,
+     "ci": 0.7844643973157737,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 13.568,
+     "ci": 1.7017219637719898,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 31.546,
+     "ci": 3.0657850412212535,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 324.416,
+     "ci": 6.73820236083898,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 69.478,
+     "ci": 2.5908483995602647,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 252.548,
+     "ci": 1.583181786373251,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 468.332,
+     "ci": 47.27324188630757,
+     "runs": 5
+    }
+   },
+   "penerimaan-100tps": {
+    "host_cpu": {
+     "mean": 78.622,
+     "ci": 5.137965807506315,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 3.472,
+     "ci": 0.8585158690111674,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 59.776,
+     "ci": 2.594982468367753,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 9.276,
+     "ci": 1.0252651576328924,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 25.38,
+     "ci": 2.048153794850377,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 56.814,
+     "ci": 3.611122551087955,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 350.996,
+     "ci": 13.734523640319543,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 71.224,
+     "ci": 2.3329402261558214,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 253.588,
+     "ci": 1.4233708213617373,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 473.976,
+     "ci": 40.377142442013586,
+     "runs": 5
+    }
+   },
+   "penerimaan-150tps": {
+    "host_cpu": {
+     "mean": 87.078,
+     "ci": 0.4504824511387762,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 3.184,
+     "ci": 0.6804654959187864,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 63.594,
+     "ci": 0.9883729593711044,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 10.482,
+     "ci": 0.7339042617017559,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 26.164,
+     "ci": 0.6644795407655525,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 68.812,
+     "ci": 1.081407893768121,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 355.17,
+     "ci": 6.89858620957077,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 72.696,
+     "ci": 3.0351291615771476,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 254.206,
+     "ci": 2.080159623936584,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 478.074,
+     "ci": 37.730349555935135,
+     "runs": 5
+    }
+   },
+   "lacak-50tps": {
+    "host_cpu": {
+     "mean": 27.326,
+     "ci": 3.267914463056829,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 1.8499999999999999,
+     "ci": 0.4940968080042614,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 19.86,
+     "ci": 1.7420146517868327,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 0.05,
+     "ci": 0.0,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 17.84,
+     "ci": 1.4152972577094889,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 13.096,
+     "ci": 1.1594777446143587,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 339.238,
+     "ci": 9.456306176890829,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 77.14,
+     "ci": 6.972458814048309,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 255.368,
+     "ci": 2.2873700964522503,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 479.378,
+     "ci": 37.466558765709756,
+     "runs": 5
+    }
+   },
+   "lacak-100tps": {
+    "host_cpu": {
+     "mean": 47.946,
+     "ci": 4.0395769783599835,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 2.704,
+     "ci": 0.7759205540363008,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 35.256,
+     "ci": 3.6344784638151304,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 0.042,
+     "ci": 0.013599567051932205,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 32.012,
+     "ci": 3.1800579440859247,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 23.46,
+     "ci": 2.1572217231615283,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 317.48199999999997,
+     "ci": 20.220492234746004,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 71.12,
+     "ci": 8.779536139364081,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 258.052,
+     "ci": 3.2854684191427177,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 479.584,
+     "ci": 37.3777824661391,
+     "runs": 5
+    }
+   },
+   "lacak-150tps": {
+    "host_cpu": {
+     "mean": 65.5,
+     "ci": 3.1641894767033163,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 3.04,
+     "ci": 0.398140729290536,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 46.838,
+     "ci": 1.1723597205226732,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 0.038,
+     "ci": 0.020399350577898306,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 44.978,
+     "ci": 1.8348163047193593,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 34.518,
+     "ci": 2.4798615679557585,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 310.406,
+     "ci": 10.284346075838572,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 67.354,
+     "ci": 5.528573881899021,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 258.446,
+     "ci": 3.676409305996273,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 479.8,
+     "ci": 37.4164774446938,
+     "runs": 5
+    }
+   },
+   "lacak-200tps": {
+    "host_cpu": {
+     "mean": 72.02,
+     "ci": 1.2226696537658905,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 3.252,
+     "ci": 0.5754695538636251,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 46.244,
+     "ci": 1.3313401958387625,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 0.046,
+     "ci": 0.020773681811368922,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 50.434,
+     "ci": 1.1544155459521495,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 42.19,
+     "ci": 1.4890594415536282,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 303.782,
+     "ci": 9.59445760845208,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 64.636,
+     "ci": 4.918689736840088,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 260.90000000000003,
+     "ci": 4.340788868323361,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 479.90799999999996,
+     "ci": 37.44454952845851,
+     "runs": 5
+    }
+   },
+   "lacak-250tps": {
+    "host_cpu": {
+     "mean": 78.416,
+     "ci": 2.6439210439527105,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 3.5759999999999996,
+     "ci": 1.0864627075864128,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 43.492,
+     "ci": 1.2585540273440794,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 0.042,
+     "ci": 0.013599567051932205,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 55.902,
+     "ci": 1.4126103631730869,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 51.758,
+     "ci": 3.217435495705238,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 311.412,
+     "ci": 2.2202169634664126,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 64.0,
+     "ci": 4.609330453764407,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 325.992,
+     "ci": 44.91922740948138,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 480.396,
+     "ci": 36.94760121430696,
+     "runs": 5
+    }
+   },
+   "verifikasi-100tps": {
+    "host_cpu": {
+     "mean": 28.554000000000002,
+     "ci": 3.020826312321846,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 1.608,
+     "ci": 0.6383834361760962,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 17.7,
+     "ci": 1.0118891268908854,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 0.054000000000000006,
+     "ci": 0.011104000000000003,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 10.902,
+     "ci": 0.8834660887572312,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 22.746,
+     "ci": 2.1209548357511063,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 303.184,
+     "ci": 6.791281881725725,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 63.886,
+     "ci": 4.340776441248267,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 260.88,
+     "ci": 8.513494622576562,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 474.494,
+     "ci": 48.0624550763984,
+     "runs": 5
+    }
+   },
+   "verifikasi-200tps": {
+    "host_cpu": {
+     "mean": 49.354,
+     "ci": 4.920694721058806,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 2.592,
+     "ci": 0.6663209617474148,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 30.874,
+     "ci": 3.3725098340458532,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 0.034,
+     "ci": 0.011104000000000003,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 19.908,
+     "ci": 2.505290400617061,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 42.508,
+     "ci": 1.7881706944204188,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 303.1,
+     "ci": 8.530047701625127,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 61.74,
+     "ci": 3.312176346996035,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 265.51,
+     "ci": 6.999440552181285,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 478.896,
+     "ci": 39.7739149813173,
+     "runs": 5
+    }
+   },
+   "verifikasi-300tps": {
+    "host_cpu": {
+     "mean": 69.012,
+     "ci": 4.4900064430136375,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 3.4939999999999998,
+     "ci": 0.4810256132224145,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 40.988,
+     "ci": 2.423090241634431,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 0.042,
+     "ci": 0.013599567051932205,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 27.49,
+     "ci": 1.3063137500003592,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 64.018,
+     "ci": 3.451265837721574,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 302.296,
+     "ci": 7.3821852276690985,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 60.78,
+     "ci": 5.634938117708128,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 272.668,
+     "ci": 9.628208543536227,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 474.016,
+     "ci": 61.35975391844998,
+     "runs": 5
+    }
+   },
+   "verifikasi-400tps": {
+    "host_cpu": {
+     "mean": 81.124,
+     "ci": 2.6175722302194444,
+     "runs": 5
+    },
+    "host_steal": {
+     "mean": 3.392,
+     "ci": 0.7620309615127197,
+     "runs": 5
+    },
+    "peer_cpu": {
+     "mean": 46.322,
+     "ci": 1.264205151604756,
+     "runs": 5
+    },
+    "orderer_cpu": {
+     "mean": 0.036000000000000004,
+     "ci": 0.016656,
+     "runs": 5
+    },
+    "chaincode_cpu": {
+     "mean": 32.120000000000005,
+     "ci": 1.006007999013925,
+     "runs": 5
+    },
+    "caliper_cpu": {
+     "mean": 78.51,
+     "ci": 3.082522699556322,
+     "runs": 5
+    },
+    "peer_mem": {
+     "mean": 306.736,
+     "ci": 7.668559188933472,
+     "runs": 5
+    },
+    "orderer_mem": {
+     "mean": 60.58,
+     "ci": 5.0933359290743825,
+     "runs": 5
+    },
+    "chaincode_mem": {
+     "mean": 279.528,
+     "ci": 11.976184569121482,
+     "runs": 5
+    },
+    "caliper_mem": {
+     "mean": 482.242,
+     "ci": 58.182521942813594,
+     "runs": 5
+    }
+   }
+  },
+  "naive": {
+   "penerimaan-25tps": {
+    "host_cpu": {
+     "mean": 28.82,
+     "ci": 1.131124397181847,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 2.1933333333333334,
+     "ci": 1.1658756845440732,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 21.126666666666665,
+     "ci": 0.43764798359462587,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 3.1766666666666667,
+     "ci": 0.5266171973813404,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 10.433333333333334,
+     "ci": 0.7702783995702115,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 19.580000000000002,
+     "ci": 4.212327119859044,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 235.95333333333332,
+     "ci": 12.213405184346058,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 66.93666666666667,
+     "ci": 7.595590681486063,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 183.06333333333333,
+     "ci": 0.4084703321064002,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 377.70666666666665,
+     "ci": 31.21272471303248,
+     "runs": 3
+    }
+   },
+   "penerimaan-50tps": {
+    "host_cpu": {
+     "mean": 50.513333333333335,
+     "ci": 6.226741505571849,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.1966666666666668,
+     "ci": 1.1695754882339913,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 37.413333333333334,
+     "ci": 4.385847980456892,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 5.566666666666666,
+     "ci": 0.28794040716401353,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 17.733333333333334,
+     "ci": 2.363692556180784,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 34.82666666666667,
+     "ci": 2.577054369988682,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 262.31,
+     "ci": 8.814570603236032,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 67.36,
+     "ci": 6.910033881914034,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 196.2,
+     "ci": 0.27997069745482267,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 390.73333333333335,
+     "ci": 39.801333732160366,
+     "runs": 3
+    }
+   },
+   "penerimaan-100tps": {
+    "host_cpu": {
+     "mean": 82.53999999999999,
+     "ci": 4.672339457341821,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 4.083333333333333,
+     "ci": 0.1174052432578901,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 60.69,
+     "ci": 2.431988196565374,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 9.01,
+     "ci": 0.9567121605965594,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 33.593333333333334,
+     "ci": 1.986279797882916,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 55.47,
+     "ci": 5.582800488079438,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 313.98333333333335,
+     "ci": 3.961357577739125,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 69.21,
+     "ci": 5.636273015149282,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 217.34333333333333,
+     "ci": 5.117756808929532,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 407.32666666666665,
+     "ci": 51.84751543462568,
+     "runs": 3
+    }
+   }
+  },
+  "or": {
+   "akad-25tps": {
+    "host_cpu": {
+     "mean": 22.483333333333334,
+     "ci": 3.28800386445603,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 2.1033333333333335,
+     "ci": 1.1333956423852074,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 13.58,
+     "ci": 1.1436053991798627,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 2.836666666666667,
+     "ci": 0.3145738586476065,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 4.423333333333334,
+     "ci": 0.4754982660442742,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 19.92,
+     "ci": 2.87893961416931,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 211.01333333333335,
+     "ci": 8.636080383091096,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 66.20666666666666,
+     "ci": 3.157781827698748,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 167.15333333333334,
+     "ci": 8.33262491057356,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 365.25333333333333,
+     "ci": 2.4027973234151228,
+     "runs": 3
+    }
+   },
+   "akad-50tps": {
+    "host_cpu": {
+     "mean": 39.269999999999996,
+     "ci": 6.695326040054609,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.1633333333333336,
+     "ci": 0.9461165359216827,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 24.126666666666665,
+     "ci": 2.871999555549716,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 5.323333333333333,
+     "ci": 0.9081720240925967,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 7.953333333333333,
+     "ci": 1.0646000385173358,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 35.586666666666666,
+     "ci": 2.841537056326699,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 219.88333333333333,
+     "ci": 5.407664937710602,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 66.61,
+     "ci": 7.6159858499759165,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 168.55666666666667,
+     "ci": 2.9201631751229935,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 379.83000000000004,
+     "ci": 7.862174887347223,
+     "runs": 3
+    }
+   },
+   "akad-100tps": {
+    "host_cpu": {
+     "mean": 69.64,
+     "ci": 4.405341826298302,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.813333333333333,
+     "ci": 0.7240187331216718,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 44.156666666666666,
+     "ci": 1.9179884738646806,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 9.860000000000001,
+     "ci": 0.6530549751998938,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 13.443333333333333,
+     "ci": 0.7718792569941085,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 65.85333333333334,
+     "ci": 3.939563025896548,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 234.01333333333332,
+     "ci": 10.7526891264842,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 68.52333333333334,
+     "ci": 5.34394565331128,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 175.95333333333335,
+     "ci": 5.880976565359809,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 418.87666666666667,
+     "ci": 60.622094515457924,
+     "runs": 3
+    }
+   },
+   "akad-150tps": {
+    "host_cpu": {
+     "mean": 85.79333333333334,
+     "ci": 2.99219260348403,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.986666666666667,
+     "ci": 0.46764546123223666,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 51.85,
+     "ci": 1.4573137247346504,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 12.786666666666667,
+     "ci": 0.46099928533326273,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 16.653333333333332,
+     "ci": 0.6383991926773669,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 83.85666666666667,
+     "ci": 3.770987542171283,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 261.67333333333335,
+     "ci": 4.577141730499279,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 74.09333333333333,
+     "ci": 6.7873071628747725,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 188.23,
+     "ci": 10.090909632348959,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 465.17333333333335,
+     "ci": 132.0737427872013,
+     "runs": 3
+    }
+   },
+   "akad-200tps": {
+    "host_cpu": {
+     "mean": 87.07666666666667,
+     "ci": 0.6649183203054024,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.57,
+     "ci": 0.8822024550143427,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 52.733333333333334,
+     "ci": 1.6732591108406094,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 12.886666666666667,
+     "ci": 0.312605702567592,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 16.66,
+     "ci": 0.48492347262222807,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 85.92,
+     "ci": 1.019487164476999,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 263.49666666666667,
+     "ci": 7.602940868394948,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 72.73666666666666,
+     "ci": 8.77862387715054,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 190.94333333333333,
+     "ci": 9.19857324259641,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 481.14666666666665,
+     "ci": 139.6645918884384,
+     "runs": 3
+    }
+   },
+   "penerimaan-100tps": {
+    "host_cpu": {
+     "mean": 69.21000000000001,
+     "ci": 7.5104712056723395,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.6266666666666665,
+     "ci": 0.47027763283452473,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 45.776666666666664,
+     "ci": 4.349886314412264,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 9.663333333333334,
+     "ci": 1.419410353073104,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 13.58,
+     "ci": 2.0097052362307593,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 62.88,
+     "ci": 7.755592996678809,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 297.13,
+     "ci": 13.495331270425867,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 73.79666666666667,
+     "ci": 13.319860643760922,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 192.07333333333332,
+     "ci": 19.720096029571238,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 489.01,
+     "ci": 128.53753898296762,
+     "runs": 3
+    }
+   },
+   "penerimaan-150tps": {
+    "host_cpu": {
+     "mean": 86.3,
+     "ci": 1.2361923135715196,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.83,
+     "ci": 0.38806603372793863,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 53.74666666666666,
+     "ci": 1.0576202507569112,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 12.56,
+     "ci": 0.34424000000000027,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 16.55666666666667,
+     "ci": 0.45084635584395827,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 83.28333333333333,
+     "ci": 1.2612349996376901,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 319.48333333333335,
+     "ci": 6.423459699166125,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 73.99666666666667,
+     "ci": 0.1654153894828981,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 200.31333333333333,
+     "ci": 14.726203309102143,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 494.46333333333337,
+     "ci": 117.70107608759753,
+     "runs": 3
+    }
+   }
+  },
+  "block20": {
+   "akad-25tps": {
+    "host_cpu": {
+     "mean": 30.436666666666667,
+     "ci": 11.63074535490644,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 2.7533333333333334,
+     "ci": 1.8276918982178347,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 20.99,
+     "ci": 6.5993207490544075,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 3.3633333333333333,
+     "ci": 1.00495498175015,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 9.446666666666667,
+     "ci": 4.020971294353034,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 22.066666666666666,
+     "ci": 8.691929820257283,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 221.91333333333333,
+     "ci": 7.691397681343599,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 67.82666666666667,
+     "ci": 5.477350733147469,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 199.54333333333332,
+     "ci": 6.712511433068679,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 369.7233333333333,
+     "ci": 3.292693288835791,
+     "runs": 3
+    }
+   },
+   "akad-50tps": {
+    "host_cpu": {
+     "mean": 49.38666666666667,
+     "ci": 12.081583026807555,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.23,
+     "ci": 0.9625007239650956,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 36.14,
+     "ci": 7.496487970770044,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 5.74,
+     "ci": 1.4038159677227402,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 15.793333333333333,
+     "ci": 2.851727378977716,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 36.79,
+     "ci": 11.683998689221658,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 232.44333333333333,
+     "ci": 7.072354273520055,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 66.51333333333334,
+     "ci": 5.8363620822287725,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 214.29,
+     "ci": 53.19139835042034,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 379.83,
+     "ci": 9.94145114623277,
+     "runs": 3
+    }
+   },
+   "akad-100tps": {
+    "host_cpu": {
+     "mean": 82.08,
+     "ci": 3.5101334023414874,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 4.04,
+     "ci": 0.968891901245954,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 58.78666666666667,
+     "ci": 3.690085591122664,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 9.936666666666666,
+     "ci": 0.5650618016150482,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 26.436666666666667,
+     "ci": 2.411770829026765,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 62.303333333333335,
+     "ci": 1.6329366880596203,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 248.52333333333334,
+     "ci": 5.010999053057637,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 69.68666666666667,
+     "ci": 6.310871072726621,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 207.08,
+     "ci": 15.169280402458106,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 430.01,
+     "ci": 72.5945432246743,
+     "runs": 3
+    }
+   },
+   "akad-150tps": {
+    "host_cpu": {
+     "mean": 89.37666666666667,
+     "ci": 0.3594429030844605,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.74,
+     "ci": 0.7352969623220268,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 62.446666666666665,
+     "ci": 1.539755330188676,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 11.27,
+     "ci": 0.30223278732350084,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 26.77,
+     "ci": 1.2050961037333607,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 72.76666666666667,
+     "ci": 3.274931983666919,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 271.87666666666667,
+     "ci": 5.051053251779442,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 69.89666666666666,
+     "ci": 5.9890759659576105,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 242.19333333333333,
+     "ci": 15.62058805296644,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 456.77,
+     "ci": 75.77311766866336,
+     "runs": 3
+    }
+   },
+   "akad-200tps": {
+    "host_cpu": {
+     "mean": 90.22,
+     "ci": 0.5643331594014314,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.756666666666667,
+     "ci": 0.7345971458863999,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 62.69,
+     "ci": 1.7404557886944485,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 11.39,
+     "ci": 0.13832209741517504,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 28.11,
+     "ci": 0.712706363261429,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 72.58333333333333,
+     "ci": 1.5667752905179975,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 285.85,
+     "ci": 8.1542701512704,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 69.45,
+     "ci": 6.326434440852122,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 238.66666666666666,
+     "ci": 10.345242893511232,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 472.29333333333335,
+     "ci": 103.54282453147691,
+     "runs": 3
+    }
+   }
+  },
+  "block100": {
+   "akad-25tps": {
+    "host_cpu": {
+     "mean": 28.3,
+     "ci": 4.463174264560298,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 2.66,
+     "ci": 2.034883801604734,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 19.05,
+     "ci": 2.5918208860181675,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 2.9499999999999997,
+     "ci": 0.37594858961476824,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 8.423333333333334,
+     "ci": 1.2852298992830464,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 21.096666666666668,
+     "ci": 2.2270998560185373,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 221.8,
+     "ci": 9.126925720641125,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 68.04666666666667,
+     "ci": 0.99539013090904,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 197.81,
+     "ci": 7.096819855463433,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 369.6533333333333,
+     "ci": 5.544936768741828,
+     "runs": 3
+    }
+   },
+   "akad-50tps": {
+    "host_cpu": {
+     "mean": 47.24333333333333,
+     "ci": 4.634894533105487,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.3833333333333333,
+     "ci": 1.3915251197796532,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 33.06666666666666,
+     "ci": 2.53759470912472,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 5.123333333333333,
+     "ci": 1.3230898969247875,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 15.153333333333334,
+     "ci": 3.118941260456468,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 36.47,
+     "ci": 3.151586448319852,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 236.25333333333333,
+     "ci": 4.061291468044524,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 67.69666666666667,
+     "ci": 3.4945670633634136,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 208.99333333333334,
+     "ci": 38.57707962877018,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 380.4766666666667,
+     "ci": 11.441188899099526,
+     "runs": 3
+    }
+   },
+   "akad-100tps": {
+    "host_cpu": {
+     "mean": 82.88,
+     "ci": 3.8586499207019678,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 4.086666666666667,
+     "ci": 0.38833101568693296,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 57.67333333333333,
+     "ci": 1.3966164872807578,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 9.02,
+     "ci": 2.174753965908173,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 27.38,
+     "ci": 1.5641469120684697,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 65.82666666666667,
+     "ci": 4.264410738161184,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 262.83,
+     "ci": 6.640018402896227,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 70.74333333333334,
+     "ci": 1.5795260039468864,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 206.62666666666667,
+     "ci": 13.954935574509513,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 397.95666666666665,
+     "ci": 2.0488386055303023,
+     "runs": 3
+    }
+   },
+   "akad-150tps": {
+    "host_cpu": {
+     "mean": 89.75,
+     "ci": 1.1362962117922137,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.6666666666666665,
+     "ci": 0.2770157788726924,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 60.29333333333333,
+     "ci": 3.4537066883293837,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 9.903333333333334,
+     "ci": 1.9731860455308765,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 27.766666666666666,
+     "ci": 1.5902352175001562,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 76.01666666666667,
+     "ci": 1.0892437259299617,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 300.9166666666667,
+     "ci": 13.926490335683232,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 72.48333333333333,
+     "ci": 2.6044507600537328,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 240.23,
+     "ci": 9.655322197322066,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 421.11,
+     "ci": 26.741993931382478,
+     "runs": 3
+    }
+   },
+   "akad-200tps": {
+    "host_cpu": {
+     "mean": 90.05,
+     "ci": 1.9064766735263248,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.92,
+     "ci": 0.5345658539724857,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 60.3,
+     "ci": 3.710656648901023,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 9.876666666666667,
+     "ci": 1.8495115158182853,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 28.463333333333335,
+     "ci": 2.051096666666665,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 75.56333333333333,
+     "ci": 0.6097182123553245,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 309.3433333333333,
+     "ci": 8.028154712365573,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 71.34666666666666,
+     "ci": 1.7419327290908078,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 239.33,
+     "ci": 16.313440469460577,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 431.64666666666665,
+     "ci": 49.69316299559605,
+     "runs": 3
+    }
+   }
+  },
+  "saturation": {
+   "lacak-300tps": {
+    "host_cpu": {
+     "mean": 85.66666666666667,
+     "ci": 1.9777163056526856,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 4.386666666666667,
+     "ci": 1.1249234105237758,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 39.10666666666667,
+     "ci": 0.45561254593252104,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 0.043333333333333335,
+     "ci": 0.028686666666666673,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 54.373333333333335,
+     "ci": 1.5236374195253162,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 70.71,
+     "ci": 4.037106918999463,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 248.83666666666667,
+     "ci": 15.49749874760478,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 41.84,
+     "ci": 5.99127403154231,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 328.2766666666667,
+     "ci": 2.3872064317477126,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 441.6566666666667,
+     "ci": 69.15651665123885,
+     "runs": 3
+    }
+   },
+   "lacak-350tps": {
+    "host_cpu": {
+     "mean": 87.54666666666667,
+     "ci": 2.718884675311623,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 4.316666666666666,
+     "ci": 1.3146664613294294,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 39.18666666666667,
+     "ci": 1.479033457276901,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 0.05,
+     "ci": 0.0496867641664592,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 51.93,
+     "ci": 5.256239701776681,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 76.78333333333333,
+     "ci": 11.412021481791815,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 254.41333333333333,
+     "ci": 14.758105128986287,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 42.56333333333333,
+     "ci": 6.323620895885343,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 334.3933333333333,
+     "ci": 6.58590202685584,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 480.7233333333333,
+     "ci": 41.86740378729671,
+     "runs": 3
+    }
+   },
+   "lacak-400tps": {
+    "host_cpu": {
+     "mean": 89.51333333333334,
+     "ci": 1.5013983082927804,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 3.7266666666666666,
+     "ci": 1.0926381917532342,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 38.78666666666666,
+     "ci": 2.0470303632118223,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 0.04,
+     "ci": 0.06572941071798329,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 49.67666666666667,
+     "ci": 3.9800876277218378,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 84.72333333333333,
+     "ci": 4.903742130201281,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 257.23333333333335,
+     "ci": 10.551634927132287,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 43.0,
+     "ci": 6.07012849205023,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 333.1066666666666,
+     "ci": 2.788699609354003,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 487.57666666666665,
+     "ci": 75.00276436716209,
+     "runs": 3
+    }
+   },
+   "lacak-500tps": {
+    "host_cpu": {
+     "mean": 89.82000000000001,
+     "ci": 2.3189670388414956,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 4.276666666666666,
+     "ci": 0.5995101548857299,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 38.52,
+     "ci": 1.7212000000000043,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 0.03666666666666667,
+     "ci": 0.028686666666666673,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 48.943333333333335,
+     "ci": 2.5901931444478152,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 85.38,
+     "ci": 1.3949951705651098,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 257.26,
+     "ci": 17.77645980146308,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 43.666666666666664,
+     "ci": 6.759652504957468,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 338.23,
+     "ci": 7.87641004824742,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 531.86,
+     "ci": 28.246739703529197,
+     "runs": 3
+    }
+   },
+   "verifikasi-500tps": {
+    "host_cpu": {
+     "mean": 88.90666666666667,
+     "ci": 2.900866030701479,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 4.256666666666667,
+     "ci": 0.21129049389669916,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 46.06,
+     "ci": 1.7073387274449505,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 0.043333333333333335,
+     "ci": 0.028686666666666673,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 34.04666666666667,
+     "ci": 0.9303285468824716,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 90.93666666666667,
+     "ci": 4.062658965974281,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 207.31333333333333,
+     "ci": 20.151602346669893,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 44.93333333333334,
+     "ci": 6.374316762951497,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 253.53333333333333,
+     "ci": 3.0973962561713866,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 557.33,
+     "ci": 102.61887587939283,
+     "runs": 3
+    }
+   },
+   "verifikasi-600tps": {
+    "host_cpu": {
+     "mean": 88.66,
+     "ci": 3.1447247235489386,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 4.303333333333333,
+     "ci": 1.405866190341187,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 45.99666666666667,
+     "ci": 2.699177537524681,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 0.05666666666666667,
+     "ci": 0.028686666666666673,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 34.129999999999995,
+     "ci": 1.3436113193554124,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 90.26,
+     "ci": 4.550274147502919,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 208.83,
+     "ci": 13.05429310560068,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 45.36,
+     "ci": 5.318340890578568,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 258.07,
+     "ci": 1.2774427449139818,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 557.5333333333333,
+     "ci": 102.86065465863513,
+     "runs": 3
+    }
+   },
+   "verifikasi-800tps": {
+    "host_cpu": {
+     "mean": 89.23666666666666,
+     "ci": 0.32040579636523864,
+     "runs": 3
+    },
+    "host_steal": {
+     "mean": 4.109999999999999,
+     "ci": 0.3451352940997677,
+     "runs": 3
+    },
+    "peer_cpu": {
+     "mean": 46.24333333333333,
+     "ci": 1.2028747265382398,
+     "runs": 3
+    },
+    "orderer_cpu": {
+     "mean": 0.05666666666666667,
+     "ci": 0.028686666666666673,
+     "runs": 3
+    },
+    "chaincode_cpu": {
+     "mean": 34.35,
+     "ci": 0.3112866852811623,
+     "runs": 3
+    },
+    "caliper_cpu": {
+     "mean": 91.41,
+     "ci": 0.410480038369707,
+     "runs": 3
+    },
+    "peer_mem": {
+     "mean": 207.77333333333334,
+     "ci": 15.087857259244755,
+     "runs": 3
+    },
+    "orderer_mem": {
+     "mean": 45.60666666666667,
+     "ci": 6.133917737697866,
+     "runs": 3
+    },
+    "chaincode_mem": {
+     "mean": 259.51,
+     "ci": 1.2723595797702945,
+     "runs": 3
+    },
+    "caliper_mem": {
+     "mean": 558.8100000000001,
+     "ci": 100.6391670952513,
+     "runs": 3
+    }
+   }
+  }
+ },
+ "contention": {
+  "waktu": "2026-10-29T03:28:16.085Z",
+  "ulangan": 10,
+  "A": [
+   {
+    "pertama": {
+     "MVCC_READ_CONFLICT": 6,
+     "OK": 1
+    },
+    "okPercobaanPertama": 1,
+    "percobaanTotal": 28,
+    "putaran": 7,
+    "detikSampaiPenuh": 14.952243456,
+    "terisiAkhir": 7,
+    "kuota": 7
+   },
+   {
+    "pertama": {
+     "MVCC_READ_CONFLICT": 6,
+     "OK": 1
+    },
+    "okPercobaanPertama": 1,
+    "percobaanTotal": 28,
+    "putaran": 7,
+    "detikSampaiPenuh": 14.831452314,
+    "terisiAkhir": 7,
+    "kuota": 7
+   },
+   {
+    "pertama": {
+     "MVCC_READ_CONFLICT": 6,
+     "OK": 1
+    },
+    "okPercobaanPertama": 1,
+    "percobaanTotal": 28,
+    "putaran": 7,
+    "detikSampaiPenuh": 14.913105413,
+    "terisiAkhir": 7,
+    "kuota": 7
+   },
+   {
+    "pertama": {
+     "OK": 1,
+     "MVCC_READ_CONFLICT": 6
+    },
+    "okPercobaanPertama": 1,
+    "percobaanTotal": 28,
+    "putaran": 7,
+    "detikSampaiPenuh": 14.797970541,
+    "terisiAkhir": 7,
+    "kuota": 7
+   },
+   {
+    "pertama": {
+     "MVCC_READ_CONFLICT": 6,
+     "OK": 1
+    },
+    "okPercobaanPertama": 1,
+    "percobaanTotal": 28,
+    "putaran": 7,
+    "detikSampaiPenuh": 14.92846605,
+    "terisiAkhir": 7,
+    "kuota": 7
+   },
+   {
+    "pertama": {
+     "OK": 1,
+     "MVCC_READ_CONFLICT": 6
+    },
+    "okPercobaanPertama": 1,
+    "percobaanTotal": 28,
+    "putaran": 7,
+    "detikSampaiPenuh": 14.986886564,
+    "terisiAkhir": 7,
+    "kuota": 7
+   },
+   {
+    "pertama": {
+     "MVCC_READ_CONFLICT": 6,
+     "OK": 1
+    },
+    "okPercobaanPertama": 1,
+    "percobaanTotal": 28,
+    "putaran": 7,
+    "detikSampaiPenuh": 14.881059315,
+    "terisiAkhir": 7,
+    "kuota": 7
+   },
+   {
+    "pertama": {
+     "MVCC_READ_CONFLICT": 6,
+     "OK": 1
+    },
+    "okPercobaanPertama": 1,
+    "percobaanTotal": 28,
+    "putaran": 7,
+    "detikSampaiPenuh": 14.895185038,
+    "terisiAkhir": 7,
+    "kuota": 7
+   },
+   {
+    "pertama": {
+     "OK": 1,
+     "MVCC_READ_CONFLICT": 6
+    },
+    "okPercobaanPertama": 1,
+    "percobaanTotal": 28,
+    "putaran": 7,
+    "detikSampaiPenuh": 14.792536752,
+    "terisiAkhir": 7,
+    "kuota": 7
+   },
+   {
+    "pertama": {
+     "MVCC_READ_CONFLICT": 6,
+     "OK": 1
+    },
+    "okPercobaanPertama": 1,
+    "percobaanTotal": 28,
+    "putaran": 7,
+    "detikSampaiPenuh": 14.891695843,
+    "terisiAkhir": 7,
+    "kuota": 7
+   }
+  ],
+  "B": [
+   {
+    "hasil": {
+     "MVCC_READ_CONFLICT": 2,
+     "OK": 1
+    },
+    "terCommit": 1
+   },
+   {
+    "hasil": {
+     "OK": 1,
+     "MVCC_READ_CONFLICT": 2
+    },
+    "terCommit": 1
+   },
+   {
+    "hasil": {
+     "MVCC_READ_CONFLICT": 2,
+     "OK": 1
+    },
+    "terCommit": 1
+   },
+   {
+    "hasil": {
+     "OK": 1,
+     "MVCC_READ_CONFLICT": 2
+    },
+    "terCommit": 1
+   },
+   {
+    "hasil": {
+     "MVCC_READ_CONFLICT": 2,
+     "OK": 1
+    },
+    "terCommit": 1
+   },
+   {
+    "hasil": {
+     "OK": 1,
+     "MVCC_READ_CONFLICT": 2
+    },
+    "terCommit": 1
+   },
+   {
+    "hasil": {
+     "OK": 1,
+     "MVCC_READ_CONFLICT": 2
+    },
+    "terCommit": 1
+   },
+   {
+    "hasil": {
+     "MVCC_READ_CONFLICT": 2,
+     "OK": 1
+    },
+    "terCommit": 1
+   },
+   {
+    "hasil": {
+     "OK": 1,
+     "MVCC_READ_CONFLICT": 2
+    },
+    "terCommit": 1
+   },
+   {
+    "hasil": {
+     "OK": 1,
+     "MVCC_READ_CONFLICT": 2
+    },
+    "terCommit": 1
+   }
+  ],
+  "C": [
+   {
+    "hasil": {
+     "OK": 10
+    },
+    "terCommit": 10
+   },
+   {
+    "hasil": {
+     "OK": 10
+    },
+    "terCommit": 10
+   },
+   {
+    "hasil": {
+     "OK": 10
+    },
+    "terCommit": 10
+   },
+   {
+    "hasil": {
+     "OK": 10
+    },
+    "terCommit": 10
+   },
+   {
+    "hasil": {
+     "OK": 10
+    },
+    "terCommit": 10
+   },
+   {
+    "hasil": {
+     "OK": 10
+    },
+    "terCommit": 10
+   },
+   {
+    "hasil": {
+     "OK": 10
+    },
+    "terCommit": 10
+   },
+   {
+    "hasil": {
+     "OK": 10
+    },
+    "terCommit": 10
+   },
+   {
+    "hasil": {
+     "OK": 10
+    },
+    "terCommit": 10
+   },
+   {
+    "hasil": {
+     "OK": 10
+    },
+    "terCommit": 10
+   }
+  ]
+ },
+ "ledger_100k": {
+  "waktu": "2026-10-29T08:56:29.210Z",
+  "jumlahHewan": 200,
+  "paketPerHewan": 500,
+  "sebelum": {
+   "ukuranData": "1268 KiB",
+   "kueri": {
+    "verifikasiPaket": {
+     "n": 50,
+     "rata": 6.62438834,
+     "median": 5.911073,
+     "p95": 10.638218,
+     "maks": 15.68578
+    },
+    "lacakKurban20": {
+     "n": 50,
+     "rata": 16.722688220000006,
+     "median": 16.396991,
+     "p95": 22.731573,
+     "maks": 34.830858
+    },
+    "daftarPaketHewan20": {
+     "n": 50,
+     "rata": 13.140497960000003,
+     "median": 12.805849,
+     "p95": 23.60625,
+     "maks": 28.179665
+    },
+    "lacakKurban500": {
+     "n": 20,
+     "rata": 129.75613314999998,
+     "median": 129.036102,
+     "p95": 162.781063,
+     "maks": 162.781063
+    },
+    "ringkasanProgram10": {
+     "n": 20,
+     "rata": 9.68190945,
+     "median": 8.647044,
+     "p95": 17.484413,
+     "maks": 17.484413
+    }
+   }
+  },
+  "pemuatan": {
+   "detik": 121.546,
+   "totalPaket": 100000
+  },
+  "sesudah": {
+   "ukuranData": "93132 KiB",
+   "kueri": {
+    "verifikasiPaket": {
+     "n": 50,
+     "rata": 6.352378779999998,
+     "median": 5.139663,
+     "p95": 13.862823,
+     "maks": 37.405224
+    },
+    "lacakKurban20": {
+     "n": 50,
+     "rata": 11.632686399999997,
+     "median": 11.211521,
+     "p95": 13.620243,
+     "maks": 28.653802
+    },
+    "daftarPaketHewan20": {
+     "n": 50,
+     "rata": 9.806075900000002,
+     "median": 9.238457,
+     "p95": 14.114079,
+     "maks": 22.201043
+    },
+    "lacakKurban500": {
+     "n": 20,
+     "rata": 146.28309485,
+     "median": 148.367834,
+     "p95": 207.734224,
+     "maks": 207.734224
+    },
+    "ringkasanProgram10": {
+     "n": 20,
+     "rata": 9.031210300000001,
+     "median": 8.700825,
+     "p95": 12.900415,
+     "maks": 12.900415
+    }
+   }
+  }
+ },
+ "data_volume": {
+  "runs": 3,
+  "paketPerHewan": [
+   {
+    "paket": 10,
+    "lacakKurban": {
+     "median_ms": 14.360061,
+     "p95_ms": 22.07468233333333,
+     "median_min": 13.050957,
+     "median_max": 15.140455
+    },
+    "daftarPaketHewan": {
+     "median_ms": 9.810117666666667,
+     "p95_ms": 15.703077,
+     "median_min": 8.860472,
+     "median_max": 11.538935
+    },
+    "verifikasiPaket": {
+     "median_ms": 5.671944666666667,
+     "p95_ms": 9.513160333333333,
+     "median_min": 5.274702,
+     "median_max": 5.909006
+    }
+   },
+   {
+    "paket": 100,
+    "lacakKurban": {
+     "median_ms": 38.63225833333333,
+     "p95_ms": 59.32589133333333,
+     "median_min": 36.563217,
+     "median_max": 42.749087
+    },
+    "daftarPaketHewan": {
+     "median_ms": 30.08135933333333,
+     "p95_ms": 37.873699,
+     "median_min": 26.919321,
+     "median_max": 35.986545
+    },
+    "verifikasiPaket": {
+     "median_ms": 4.458281,
+     "p95_ms": 7.859658333333333,
+     "median_min": 4.385568,
+     "median_max": 4.504192
+    }
+   },
+   {
+    "paket": 500,
+    "lacakKurban": {
+     "median_ms": 136.92128666666667,
+     "p95_ms": 156.873751,
+     "median_min": 130.870324,
+     "median_max": 147.286247
+    },
+    "daftarPaketHewan": {
+     "median_ms": 121.96156733333333,
+     "p95_ms": 146.633298,
+     "median_min": 108.353189,
+     "median_max": 135.396675
+    },
+    "verifikasiPaket": {
+     "median_ms": 5.210555333333334,
+     "p95_ms": 8.447028333333334,
+     "median_min": 5.045649,
+     "median_max": 5.444762
+    }
+   },
+   {
+    "paket": 1000,
+    "lacakKurban": {
+     "median_ms": 247.94820966666668,
+     "p95_ms": 285.24862633333333,
+     "median_min": 232.015658,
+     "median_max": 268.399915
+    },
+    "daftarPaketHewan": {
+     "median_ms": 253.27186733333335,
+     "p95_ms": 285.54822533333333,
+     "median_min": 234.187979,
+     "median_max": 285.179579
+    },
+    "verifikasiPaket": {
+     "median_ms": 4.819867333333333,
+     "p95_ms": 7.894881,
+     "median_min": 4.677986,
+     "median_max": 5.013602
+    }
+   },
+   {
+    "paket": 2000,
+    "lacakKurban": {
+     "median_ms": 478.7572073333333,
+     "p95_ms": 525.1648653333333,
+     "median_min": 456.385317,
+     "median_max": 500.153687
+    },
+    "daftarPaketHewan": {
+     "median_ms": 514.2401556666666,
+     "p95_ms": 580.9741463333334,
+     "median_min": 445.656052,
+     "median_max": 553.270702
+    },
+    "verifikasiPaket": {
+     "median_ms": 4.476647,
+     "p95_ms": 8.522022666666667,
+     "median_min": 4.175925,
+     "median_max": 4.716549
+    }
+   }
+  ],
+  "akadPerProgram": [
+   {
+    "akad": 10,
+    "ringkasanProgram": {
+     "median_ms": 8.705412666666668,
+     "p95_ms": 10.631673333333334,
+     "median_min": 7.814287,
+     "median_max": 9.250586
+    },
+    "daftarKurbanProgram": {
+     "median_ms": 8.282115333333333,
+     "p95_ms": 12.255911666666666,
+     "median_min": 7.832217,
+     "median_max": 8.665617
+    }
+   },
+   {
+    "akad": 100,
+    "ringkasanProgram": {
+     "median_ms": 32.089965,
+     "p95_ms": 37.09041933333333,
+     "median_min": 29.952221,
+     "median_max": 35.106366
+    },
+    "daftarKurbanProgram": {
+     "median_ms": 25.871682,
+     "p95_ms": 40.999083,
+     "median_min": 25.711096,
+     "median_max": 25.982757
+    }
+   },
+   {
+    "akad": 500,
+    "ringkasanProgram": {
+     "median_ms": 135.63728966666667,
+     "p95_ms": 147.41950366666666,
+     "median_min": 127.002965,
+     "median_max": 140.621015
+    },
+    "daftarKurbanProgram": {
+     "median_ms": 122.00445533333334,
+     "p95_ms": 151.62856166666666,
+     "median_min": 107.249374,
+     "median_max": 144.407353
+    }
+   },
+   {
+    "akad": 1000,
+    "ringkasanProgram": {
+     "median_ms": 256.47793866666666,
+     "p95_ms": 294.42113666666665,
+     "median_min": 252.094499,
+     "median_max": 262.418181
+    },
+    "daftarKurbanProgram": {
+     "median_ms": 267.4980003333333,
+     "p95_ms": 296.777199,
+     "median_min": 260.916116,
+     "median_max": 279.151763
+    }
+   }
+  ],
+  "ukuranBatchPaket": [
+   {
+    "jumlah": 1,
+    "buatPaket": {
+     "median_ms": 2022.782124,
+     "p95_ms": 2024.8969646666667,
+     "median_min": 2022.093706,
+     "median_max": 2024.049519
+    }
+   },
+   {
+    "jumlah": 50,
+    "buatPaket": {
+     "median_ms": 2078.8633173333333,
+     "p95_ms": 2083.072230333333,
+     "median_min": 2076.573281,
+     "median_max": 2083.026205
+    }
+   },
+   {
+    "jumlah": 200,
+    "buatPaket": {
+     "median_ms": 2218.4148880000002,
+     "p95_ms": 2231.734516,
+     "median_min": 2205.608228,
+     "median_max": 2229.525058
+    }
+   },
+   {
+    "jumlah": 500,
+    "buatPaket": {
+     "median_ms": 2504.688796,
+     "p95_ms": 2528.5501503333335,
+     "median_min": 2484.23229,
+     "median_max": 2535.26315
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,48 @@
+# Uji kejenuhan kueri v2: laju di atas rentang uji utama untuk menemukan titik jenuh
+# lacakKurban dan verifikasiPaket. Ronde 60 s dengan satu ronde pemanasan (tidak dilaporkan).
+test:
+  name: kurbanchain-v2-baca
+  description: "Kejenuhan kueri lacakKurban dan verifikasiPaket (ronde 60 s)"
+  workers:
+    number: 2
+  rounds:
+    - label: pemanasan
+      description: Pemanasan kueri verifikasiPaket 100 tps selama 20 detik
+      txDuration: 20
+      rateControl: {type: fixed-rate, opts: {tps: 100}}
+      workload: {module: workload/lacak.js, arguments: {mode: verifikasi, jumlahPaket: 20}}
+    - label: lacak-300tps
+      description: Kueri lacakKurban (20 paket per hewan) saja, laju tetap 300 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 300}}
+      workload: {module: workload/lacak.js, arguments: {mode: lacak, jumlahPaket: 20}}
+    - label: lacak-350tps
+      description: Kueri lacakKurban (20 paket per hewan) saja, laju tetap 350 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 350}}
+      workload: {module: workload/lacak.js, arguments: {mode: lacak, jumlahPaket: 20}}
+    - label: lacak-400tps
+      description: Kueri lacakKurban (20 paket per hewan) saja, laju tetap 400 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 400}}
+      workload: {module: workload/lacak.js, arguments: {mode: lacak, jumlahPaket: 20}}
+    - label: lacak-500tps
+      description: Kueri lacakKurban (20 paket per hewan) saja, laju tetap 500 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 500}}
+      workload: {module: workload/lacak.js, arguments: {mode: lacak, jumlahPaket: 20}}
+    - label: verifikasi-500tps
+      description: Kueri verifikasiPaket saja, laju tetap 500 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 500}}
+      workload: {module: workload/lacak.js, arguments: {mode: verifikasi, jumlahPaket: 20}}
+    - label: verifikasi-600tps
+      description: Kueri verifikasiPaket saja, laju tetap 600 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 600}}
+      workload: {module: workload/lacak.js, arguments: {mode: verifikasi, jumlahPaket: 20}}
+    - label: verifikasi-800tps
+      description: Kueri verifikasiPaket saja, laju tetap 800 tps selama 60 detik
+      txDuration: 60
+      rateControl: {type: fixed-rate, opts: {tps: 800}}
+      workload: {module: workload/lacak.js, arguments: {mode: verifikasi, jumlahPaket: 20}}

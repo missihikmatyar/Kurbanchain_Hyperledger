@@ -1,0 +1,11 @@
+{
+  "keterangan": "Pengikatan peran ke organisasi (MSP). Berkas ini ikut dalam paket chaincode, sehingga mengubahnya memerlukan upgrade chaincode yang disetujui mayoritas organisasi channel.",
+  "peranMsp": {
+    "lembaga": ["Org1MSP"],
+    "panitia": ["Org1MSP"],
+    "pengawas": ["Org1MSP"],
+    "peternak": ["Org2MSP"],
+    "pemeriksa": ["Org2MSP"],
+    "rph": ["Org2MSP"]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "kurban-chaincode",
+  "version": "0.1.0",
+  "description": "Chaincode Hyperledger Fabric untuk ketertelusuran kurban (KurbanChain)",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "fabric-chaincode-node start",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fabric-contract-api": "~2.5.8",
+    "fabric-shim": "~2.5.8"
+  }
+}
